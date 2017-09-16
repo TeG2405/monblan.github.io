@@ -1,0 +1,14 @@
+.header__row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0 $grid-gutter-width/-2;
+  @media (min-width: $screen-sm-min) {
+    flex-wrap: nowrap;
+  }
+  @media (min-width: $screen-lg-min) {
+    align-items: center;
+    margin: 0;
+  }
+}

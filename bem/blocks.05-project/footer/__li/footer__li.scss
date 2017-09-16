@@ -1,0 +1,8 @@
+.footer__li {
+  padding: $s 0;
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    &:nth-child(n+9){
+      display: none;
+    }
+  }
+}

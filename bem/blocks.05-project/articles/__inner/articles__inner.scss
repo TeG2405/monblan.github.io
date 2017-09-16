@@ -1,0 +1,13 @@
+.articles__inner {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  &.slick-initialized{display: block}
+  .slick-track{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}

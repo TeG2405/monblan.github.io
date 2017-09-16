@@ -1,0 +1,109 @@
+@import "variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?30ppw0');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?30ppw0#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?30ppw0') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?30ppw0') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?30ppw0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aircraft {
+  &:before {
+    content: $icon-aircraft;
+  }
+}
+.icon-arms {
+  &:before {
+    content: $icon-arms;
+  }
+}
+.icon-booklet {
+  &:before {
+    content: $icon-booklet;
+  }
+}
+.icon-medal {
+  &:before {
+    content: $icon-medal;
+  }
+}
+.icon-monitor {
+  &:before {
+    content: $icon-monitor;
+  }
+}
+.icon-percent {
+  &:before {
+    content: $icon-percent;
+  }
+}
+.icon-world {
+  &:before {
+    content: $icon-world;
+  }
+}
+.icon-angle-left {
+  &:before {
+    content: $icon-angle-left;
+  }
+}
+.icon-angle-right {
+  &:before {
+    content: $icon-angle-right;
+  }
+}
+.icon-book {
+  &:before {
+    content: $icon-book;
+  }
+}
+.icon-angle-down {
+  &:before {
+    content: $icon-angle-down;
+  }
+}
+.icon-angle-up {
+  &:before {
+    content: $icon-angle-up;
+  }
+}
+.icon-calculator {
+  &:before {
+    content: $icon-calculator;
+  }
+}
+.icon-map-marker {
+  &:before {
+    content: $icon-map-marker;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
+

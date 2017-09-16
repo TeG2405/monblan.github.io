@@ -1,0 +1,15 @@
+.footer__contact {
+  padding-left: $l;
+  position: relative;
+  padding-top: $grid-gutter-width/2;
+  padding-bottom: $grid-gutter-width/2;
+  &:before{
+    font-family: icomoon;
+    content: $icon-map-marker;
+    float: left;
+    font-size: $font-size-base;
+    width: $l;
+    color: $brand-primary;
+    margin-left: -$l;
+  }
+}

@@ -1,0 +1,12 @@
+.articles__header {
+  font-size: $font-size-h2;
+  margin-bottom: 0.75em;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: $screen-xs-max) {
+    font-size: $font-size-h6;
+  }
+}

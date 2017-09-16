@@ -1,0 +1,28 @@
+.about {
+  @media (max-width: $screen-sm-max) {
+    margin-top: $l;
+    margin-bottom: $l*2;
+  }
+  .collapse{
+    @media (min-width: $screen-sm-min) {
+      height: auto !important;
+      display: block;
+    }
+  }
+  a, .a {
+    &[data-toggle="collapse"]{
+      display: none;
+      @media (max-width: $screen-xs-max) {
+        display: inline;
+      }
+    }
+    &:before{
+      content: attr(data-open);
+    }
+    &.collapsed{
+      &:before{
+        content: attr(data-close);
+      }
+    }
+  }
+}

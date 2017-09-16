@@ -1,0 +1,13 @@
+.accent__item {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  @include clearfix();
+  @media (max-width: $screen-md-max) {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+}

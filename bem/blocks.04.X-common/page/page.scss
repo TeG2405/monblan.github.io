@@ -1,0 +1,16 @@
+$screen-min: 320px !default;
+html{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+body{
+  position: relative;
+  min-width: $screen-min;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

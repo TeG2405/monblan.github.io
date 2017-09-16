@@ -1,0 +1,7 @@
+.form-control {
+  font-size: $font-size-small;
+}
+textarea.form-control {
+  resize: vertical;
+  height: $input-height-base * 2 + $g/2;
+}

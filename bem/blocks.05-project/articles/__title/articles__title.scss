@@ -1,0 +1,10 @@
+.articles__title {
+  font-weight: bold;
+  font-size: $font-size-extra * 2;
+  line-height: 1.2;
+  margin-bottom: $m;
+  color: $link-color;
+  .articles__item:hover &{
+    color: $link-hover-color;
+  }
+}

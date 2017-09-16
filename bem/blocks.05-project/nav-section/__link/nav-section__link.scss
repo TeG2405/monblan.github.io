@@ -1,0 +1,10 @@
+.nav-section__link {
+  color: inherit !important;
+  .nav-section__dropdown & {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.35s ease;
+    &:hover{
+      border-bottom-color: $link-color;
+    }
+  }
+}

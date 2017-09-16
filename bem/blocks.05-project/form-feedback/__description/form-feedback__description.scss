@@ -1,0 +1,9 @@
+.form-feedback__description {
+  font-size: $font-size-extra;
+  color: $gray;
+  margin-bottom: -$s;
+  .a, a{
+    color: $gray !important;
+    text-decoration: underline;
+  }
+}

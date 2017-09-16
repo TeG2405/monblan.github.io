@@ -1,0 +1,13 @@
+.header__contact {
+  padding-top: $grid-gutter-width/2;
+  padding-bottom: $l;
+  text-align: center;
+  @media (min-width: $screen-lg-min) {
+    flex-grow: 10;
+    text-align: left;
+    padding: 0 $grid-gutter-width/2;
+    .header__col:first-child &{
+      order: 10;
+    }
+  }
+}

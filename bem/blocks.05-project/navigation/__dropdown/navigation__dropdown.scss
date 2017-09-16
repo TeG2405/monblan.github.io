@@ -1,0 +1,36 @@
+.navigation__dropdown {
+  @media (max-width: $screen-xs-max) {
+    display: none;
+    padding-top: $m;
+    padding-bottom: $m;
+    margin: $grid-gutter-width/2 0;
+    border-top: 1px solid rgba($gray-ultra, 0.1);
+    border-bottom: 1px solid rgba($gray-ultra, 0.1);
+    .open > &{display: block}
+  }
+  @media (min-width: $screen-sm-min) {
+    color: $text-color;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: $gray-ultra;
+    box-shadow: 0 0 40px rgba($gray-darker, 0.25);
+    transition: all 0.35s ease 0.35s;
+    padding: $grid-gutter-width/2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    z-index: $zindex-dropdown;
+    .navigation__li:hover > & {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  @media (min-width: $screen-lg-min) {
+    text-align: left;
+  }
+}

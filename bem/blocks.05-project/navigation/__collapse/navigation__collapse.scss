@@ -1,0 +1,35 @@
+.navigation__collapse {
+  width: 100%;
+  @media (max-width: $screen-xs-max) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba($gray-darker, 0.98);
+    padding-top: $navigation-height;
+    padding-left: $grid-gutter-width/2;
+    padding-right: $grid-gutter-width/2;
+    padding-bottom: $grid-gutter-width;
+    max-height: #{'calc(100vh -'$navigation-height ')'};
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all 0.35s ease;
+    -webkit-overflow-scrolling: touch;
+    .open > & {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0%);
+    }
+  }
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  @media (min-width: $screen-lg-min) {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,10 @@
+$navigation-height: 50px !default;
+.navigation {
+  height: $navigation-height;
+  background-color: $gray-darker;
+  color: $gray-ultra;
+  @media (max-width: $screen-xs-max) {
+    position: relative;
+    z-index: $zindex-dropdown;
+  }
+}

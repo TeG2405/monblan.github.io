@@ -1,0 +1,15 @@
+.navigation__nav-icon {
+  display: block;
+  height: 2px;
+  width: $grid-gutter-width;
+  margin: 3px 0;
+  background-color: $gray-ultra;
+  transition: all 0.35s ease;
+  .open > .navigation__control & {
+    margin: -1px 0;
+    transform: rotate(45deg);
+    &:first-child{
+      transform: rotate(-45deg);
+    }
+  }
+}

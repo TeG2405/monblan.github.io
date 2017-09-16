@@ -1,0 +1,8 @@
+.articles__item {
+  font-size: $font-size-small;
+  display: block;
+  &, &:hover, &:focus, &:active{
+    color: $text-color;
+    outline: none;
+  }
+}

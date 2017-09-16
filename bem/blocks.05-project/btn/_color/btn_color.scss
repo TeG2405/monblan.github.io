@@ -1,0 +1,12 @@
+.btn_color {
+  &_white{
+    border-color: $gray-ultra;
+    background: transparent;
+    color: $gray-ultra !important;
+  }
+  &_red{
+    border-color: $brand-primary;
+    background: transparent;
+    color: $brand-primary !important;
+  }
+}

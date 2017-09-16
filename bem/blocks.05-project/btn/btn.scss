@@ -1,0 +1,9 @@
+.btn {
+  font-size: $font-size-small;
+  &-lg{
+    font-size: $font-size-large;
+  }
+  &-sm{
+    font-size: $font-size-extra;
+  }
+}

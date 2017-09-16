@@ -1,0 +1,8 @@
+**/.enb
+**/config.js
+**/node_modules
+**/bower_components
+!**/bower_components/**/fonts/
+#**/favicons
+**/.idea
+#**/upload

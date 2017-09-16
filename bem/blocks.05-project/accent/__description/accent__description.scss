@@ -1,0 +1,7 @@
+.accent__description {
+  margin-left: 190px;
+  margin-bottom: $m;
+  @media (max-width: $screen-md-max) {
+    margin-left: 0;
+  }
+}

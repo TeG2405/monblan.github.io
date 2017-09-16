@@ -1,0 +1,6 @@
+.footer__copyright {
+  color: rgba($gray-ultra, 0.2);
+  @media (max-width: $screen-xs-max) {
+    margin-top: $m;
+  }
+}

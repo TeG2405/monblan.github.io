@@ -1,0 +1,23 @@
+.navigation__control {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  cursor: pointer;
+  width: $grid-gutter-width;
+  pointer-events: auto;
+  font-size: 1.5em;
+  z-index: $zindex-modal;
+  overflow: hidden;
+  .icomoon, .fa{
+    position: relative;
+  }
+  &_visible{
+    &_xs{
+      @media (min-width: $screen-sm-min) {
+        display: none;
+      }
+    }
+  }
+}

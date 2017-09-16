@@ -1,0 +1,6 @@
+.accent__row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  &:before, &:after{content: none}
+}

@@ -1,0 +1,20 @@
+.social_view_fixed {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  width: 38px;
+  margin-bottom: 70px;
+  @media (min-width: $screen-sm-min) {
+    display: block;
+    z-index: 10;
+  }
+  .btn{
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: $x;
+  }
+}

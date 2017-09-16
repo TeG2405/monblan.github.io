@@ -1,0 +1,22 @@
+.breadcrumb {
+  font-size: $font-size-small;
+  @media (max-width: $screen-xs-max) {
+    font-size: $font-size-base;
+    li{
+      display: none;
+      &:nth-last-child(2){
+        display: inline-block;
+        &:before{
+          content: none;
+        }
+        a, .a{
+          &:before{
+            font-family: FontAwesome;
+            content: "\f148";
+            padding-right: $s;
+          }
+        }
+      }
+    }
+  }
+}

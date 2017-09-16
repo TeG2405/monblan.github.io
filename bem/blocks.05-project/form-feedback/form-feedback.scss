@@ -1,0 +1,12 @@
+.form-feedback {
+  position: relative;
+  padding: $l ($g + $s);
+  background-color: $gray-ultra;
+  box-shadow: 0 0 40px rgba($gray-darker, 0.2);
+  @media (max-width: $screen-xs-max) {
+    margin-left: $g/-2;
+    margin-right: $g/-2;
+    padding-left: $g/2;
+    padding-right: $g/2;
+  }
+}

@@ -1,0 +1,13 @@
+.dot {
+  position: relative;
+  padding-left: $g;
+  &:before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: $brand-primary;
+    top: 0.2em;
+    left: 0;
+  }
+}

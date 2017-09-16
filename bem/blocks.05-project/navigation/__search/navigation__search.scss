@@ -1,0 +1,39 @@
+.navigation__search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $gray-darker;
+  width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.35s ease;
+  .form{
+    width: 100%;
+  }
+  .form-control{
+    width: 100%;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+  }
+}
+
+.header.open {
+  .header__logo{z-index: auto}
+  .navigation__search{
+    width: 100%;
+    + .fa,
+    +.icomoon{pointer-events: none}
+  }
+}

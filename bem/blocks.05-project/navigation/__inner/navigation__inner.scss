@@ -1,0 +1,12 @@
+.navigation__inner {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+  height: $navigation-height;
+  &:before, &:after{ content: none}
+  @media (min-width: $screen-sm-min) {
+    position: relative;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+  background-color: $gray-ultra;
+  @media (min-width: $screen-lg-min) {
+    box-shadow: 0 0 40px rgba($gray-darker, 0.25);
+  }
+}

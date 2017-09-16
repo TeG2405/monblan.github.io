@@ -1,0 +1,13 @@
+.nav-section__dropdown {
+  font-family: $font-family-base;
+  list-style: none;
+  line-height: $line-height-base;
+  padding: 0;
+  padding-top: $s;
+  margin: 0;
+  font-size: $font-size-base;
+  display: none;
+  @media (min-width: $screen-md-min) {
+    display: block;
+  }
+}

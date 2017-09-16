@@ -1,0 +1,8 @@
+.header__address {
+  display: none;
+  @media (min-width: $screen-sm-min) {
+    display: block;
+    color: $gray-dark;
+    font-size: $font-size-extra;
+  }
+}

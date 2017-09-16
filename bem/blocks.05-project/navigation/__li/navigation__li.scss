@@ -1,0 +1,23 @@
+.navigation__li {
+  padding: $s 0;
+  flex-grow: 10;
+  @media (min-width: $screen-lg-min) {
+    padding-left: $l;
+    padding-right: $l;
+    border-right: 1px solid rgba($gray-ultra, 0.2);
+    text-align: center;
+    .navigation__collapse > .navigation__list > &{
+      text-align: center;
+    }
+    &  & {
+      text-align: left;
+    }
+    .navigation__list:first-child &:last-child{
+      border-right: none;
+    }
+    .navigation__section & {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

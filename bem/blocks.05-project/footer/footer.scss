@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  color: $gray-ultra;
+  background-color: $gray-darker;
+  font-size: $font-size-small;
+  .a, a{
+    color: inherit;
+  }
+}

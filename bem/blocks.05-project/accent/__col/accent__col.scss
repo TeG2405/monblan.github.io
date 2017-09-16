@@ -1,0 +1,35 @@
+.accent__col {
+  padding: $l*2 $g;
+  @media (min-width: $screen-sm-min) {position: static}
+  background-size: 0;
+  &:before,
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: $gray-darker;
+    opacity: 0.8;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @media (min-width: $screen-sm-min) {
+      width: 50%;
+    }
+  }
+  &:first-child:before,
+  &:first-child:after{
+    right: auto;
+    left: 0;
+    background: $brand-primary;
+    opacity: 0.9;
+  }
+  &:first-child:before,
+  &:before{
+    background-color: transparent;
+    opacity: 1;
+    background-image: inherit;
+  }
+}

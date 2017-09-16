@@ -1,0 +1,14 @@
+.accent__image {
+  margin-bottom: $l;
+  font-size: 80px;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: $screen-md-max) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
