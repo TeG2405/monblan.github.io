@@ -1118,6 +1118,7 @@
     height: 80px;
     width: 140px;
     margin-top: -50px;
+    padding: 0 15px;
   }
 }
 
@@ -1678,6 +1679,13 @@
   opacity: 0;
 }
 /* end: ../../blocks.05-project/file-control/file-control.scss */
+
+
+/* begin: ../../blocks.05-project/file-control/__name/file-control__name.scss */
+.file-control__name {
+  display: block;
+}
+/* end: ../../blocks.05-project/file-control/__name/file-control__name.scss */
 
 
 /* begin: ../../blocks.05-project/form-feedback/__description/form-feedback__description.scss */

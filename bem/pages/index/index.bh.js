@@ -67,6 +67,8 @@ dropRequireCache(require, require.resolve("../../blocks.05-project/nav-section/_
 require("../../blocks.05-project/nav-section/__dropdown/nav-section__dropdown.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.05-project/file-control/file-control.bh.js"));
 require("../../blocks.05-project/file-control/file-control.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.05-project/file-control/__name/file-control__name.bh.js"));
+require("../../blocks.05-project/file-control/__name/file-control__name.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.05-project/portfolio/__item/portfolio__item.bh.js"));
 require("../../blocks.05-project/portfolio/__item/portfolio__item.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.05-project/articles/__item/articles__item.bh.js"));
