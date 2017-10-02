@@ -6,7 +6,7 @@ module.exports = [
         ]},
         {elem: 'inner', mix: {block: 'row'}, content:
             (function (item) {
-                return [item, item, item]
+                return [item, item, item, item, item, item]
             })(
                 {mix: {block: 'row', elem: 'col', mods: {xs: 12, sm: 6, md: 4}}, content: [
                     {elem: 'item', content: [

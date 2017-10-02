@@ -1,0 +1,34 @@
+.social-likes {
+  &__widget{
+    display: block;
+  }
+  &__button{
+    cursor: pointer;
+    display: block;
+    margin: $x auto;
+    width: $g;
+    height: $g;
+    background-color: $brand-primary;
+    color: $gray-ultra;
+    border-radius: $border-radius-small;
+  }
+  &__icon{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: FontAwesome;
+    &:before{content: ''}
+    &_facebook{
+      &:before{content: "\f09a"}
+    }
+    &_vkontakte{
+      &:before{content: "\f189"}
+    }
+    &_odnoklassniki{
+      &:before{content: "\f263"}
+    }
+  }
+}

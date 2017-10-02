@@ -236,6 +236,9 @@ exports.blocks = [
         ]
     },
     {
+        "name": "span"
+    },
+    {
         "name": "header",
         "elems": [
             {
@@ -275,9 +278,6 @@ exports.blocks = [
     },
     {
         "name": "breadcrumb"
-    },
-    {
-        "name": "span"
     },
     {
         "name": "h"
@@ -762,6 +762,42 @@ exports.blocks = [
         "elems": [
             {
                 "name": "copyright"
+            }
+        ]
+    },
+    {
+        "name": "fixed"
+    },
+    {
+        "name": "social-likes"
+    },
+    {
+        "name": "social-likes",
+        "mods": [
+            {
+                "name": "vertical",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "facebook"
+    },
+    {
+        "name": "vkontakte"
+    },
+    {
+        "name": "odnoklassniki"
+    },
+    {
+        "name": "fixed",
+        "elems": [
+            {
+                "name": "up"
             }
         ]
     }

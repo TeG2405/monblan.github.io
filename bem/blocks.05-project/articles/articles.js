@@ -8,7 +8,7 @@
         this.$block = $(element);
         this.$inner = this.$block.find('.articles__inner');
         this.$inner.length && this.$inner.slick({
-            arrows: false,
+            arrows: true,
             dots: false,
             infinite: true,
             slidesToShow: 3,

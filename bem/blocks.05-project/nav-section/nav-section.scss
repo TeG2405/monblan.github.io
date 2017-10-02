@@ -4,12 +4,15 @@
   font-family: $headings-font-family;
   padding: $g/2 $g $g/2 $g;
   box-shadow: 0 0 15px rgba($gray-darker, 0.15);
+  background-image: url('../../../upload/pattern.png');
   background-color: #e8e8df;
-  background-image: url("../../../upload/pattern.png");
-  background-image:  url('../../../upload/pattern1.png'), url('../../../upload/pattern2.png'), url('../../../upload/pattern3.png'), url("../../../upload/pattern.png");
   background-position: 13% 33%, 27% 23%, 33% 13%;
   font-size: ceil($font-size-extra * 2);
-  margin: 0;
+  margin-bottom: $l;
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    column-count: 2;
+    column-gap: 0;
+  }
   @media (min-width: $screen-lg-min) {
     padding: $l $g $g/2 $g+$l;
   }

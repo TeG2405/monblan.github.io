@@ -124,5 +124,13 @@ module.exports = [
             ]}  
          ]}
       ]}
+    ]},
+    {block: 'fixed', content: [
+        {block: 'social-likes', mods: {vertical: true}, attrs: {"data-counters" : "no"}, content: [
+            {block: 'facebook'},
+            {block: 'vkontakte'},
+            {block: 'odnoklassniki'}
+        ]},
+        {elem: 'up'}
     ]}
 ];

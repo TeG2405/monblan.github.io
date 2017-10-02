@@ -1,5 +1,5 @@
 module.exports = [
-    {block: 'carousel', mods: {view: 'main'}, mix: [{block: 'hidden-xs'}, {block: 'hidden-sm'}], content: [
+    {block: 'carousel', mods: {view: 'main'}, content: [
         {elem: 'item', attrs: {style: 'background-image: url("../../../upload/carousel-image-1.jpg")'}, content: [
             {elem: 'inner', content: [
                 {elem: 'caption', content: [

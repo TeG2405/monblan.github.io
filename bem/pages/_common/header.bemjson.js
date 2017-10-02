@@ -9,9 +9,9 @@ module.exports = [
                             {elem: 'address', content: 'Волгоград, пр. Ленина,  д.100, оф 216.'},
                             {elem: 'phone', content: '8 (449) 350-22-91'}
                         ]},
-                        {block: 'btn', mods: {color: 'primary'}, attrs: {'data-toggle': 'modal', 'data-target': '#MODAL_DEFAULT'}, content: [
+                        {block: 'btn', mods: {color: 'primary'}, attrs: {'data-toggle': 'modal', 'data-target': '#MODAL_CALLBACK'}, content: [
                             {block: 'icomoon', icon: 'phone'},
-                            'Обратная сязь'
+                            {block: 'span', content: 'Обратная сязь'}
                         ]}
                     ]},
                     {elem: 'logo', content: [
@@ -30,7 +30,7 @@ module.exports = [
                         ]},
                         {block: 'btn', mods: {color: 'primary'}, content: [
                             {block: 'icomoon', icon: 'calculator'},
-                            'Расчитать тираж'
+                            {block: 'span', content: 'Расчитать тираж'}
                         ]}
                     ]}
                 ]}

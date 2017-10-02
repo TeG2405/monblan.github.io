@@ -24,7 +24,7 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: stretch;
-    z-index: $zindex-dropdown;
+    z-index: 50;
     .navigation__li:hover > & {
       opacity: 1;
       visibility: visible;

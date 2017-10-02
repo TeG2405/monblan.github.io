@@ -1,11 +1,20 @@
 .carousel_view_main {
   color: $gray-ultra;
   background-color: $gray-light;
-  margin-bottom: $l*2;
   overflow: hidden;
   height: 0;
   opacity: 0;
   transition: opacity 0.35s ease;
+  margin-bottom: $g;
+  @media (max-width: $screen-xs-max) {
+    margin: -$g $g/-2 $g;
+    .slick-arrow{
+      display: none !important;
+    }
+  }
+  @media (min-width: $screen-md-min) {
+    margin-bottom: $l*2;
+  }
   &.slick-initialized{
     height: auto;
     opacity: 1;
@@ -36,6 +45,12 @@
       background-color: $gray-darker;
       opacity: 0.7;
     }
+    @media (max-width: $screen-xs-max) {
+      max-height: $screen-min;
+      &:before{
+        padding-top: 100%;
+      }
+    }
   }
   .carousel__inner{
     position: absolute;
@@ -50,6 +65,10 @@
     .btn-lg{
       padding-left: $g*2;
       padding-right: $g*2;
+      @media (max-width: $screen-xs-max) {
+        display: block;
+        font-size: $font-size-small;
+      }
     }
   }
   .carousel__caption{
@@ -57,8 +76,12 @@
     margin-left: $g*2;
     margin-right: $g*2;
     .dot{
+      font-size: 3em;
       margin-left: -$g;
+      @media (max-width: $screen-xs-max) {
+        font-size: 1.6em;
+        line-height: 1.2;
+      }
     }
   }
-
 }

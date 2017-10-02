@@ -1,0 +1,7 @@
+.pattern_view_book {
+  @media (min-width: $screen-lg-min) {
+    background-image: url('../../../upload/book-big.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 70%;
+  }
+}

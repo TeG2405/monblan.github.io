@@ -313,6 +313,9 @@ exports.blocks = [
         ]
     },
     {
+        "name": "span"
+    },
+    {
         "name": "header"
     },
     {
@@ -363,6 +366,25 @@ exports.blocks = [
         "name": "main"
     },
     {
+        "name": "pattern"
+    },
+    {
+        "name": "pattern"
+    },
+    {
+        "name": "pattern",
+        "mods": [
+            {
+                "name": "view",
+                "vals": [
+                    {
+                        "name": "book"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "row"
     },
     {
@@ -400,6 +422,147 @@ exports.blocks = [
                                 "name": 12
                             }
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md-pull",
+                        "vals": [
+                            {
+                                "name": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pull-right"
+    },
+    {
+        "name": "carousel"
+    },
+    {
+        "name": "carousel"
+    },
+    {
+        "name": "carousel",
+        "mods": [
+            {
+                "name": "view",
+                "vals": [
+                    {
+                        "name": "main"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "carousel"
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "carousel"
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "carousel"
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "h1"
+    },
+    {
+        "name": "mtn"
+    },
+    {
+        "name": "mbl"
+    },
+    {
+        "name": "dot"
+    },
+    {
+        "name": "btn"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "size",
+                "vals": [
+                    {
+                        "name": "lg"
                     }
                 ]
             }
@@ -481,9 +644,6 @@ exports.blocks = [
                 ]
             }
         ]
-    },
-    {
-        "name": "mbl"
     },
     {
         "name": "nav-section"
@@ -723,147 +883,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 8
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md-pull",
-                        "vals": [
-                            {
-                                "name": 4
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "mods": [
-            {
-                "name": "view",
-                "vals": [
-                    {
-                        "name": "main"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "hidden-xs"
-    },
-    {
-        "name": "hidden-sm"
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "caption"
-            }
-        ]
-    },
-    {
-        "name": "h1"
-    },
-    {
-        "name": "mtn"
-    },
-    {
-        "name": "dot"
-    },
-    {
-        "name": "btn"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "size",
-                "vals": [
-                    {
-                        "name": "lg"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "about"
     },
     {
@@ -880,6 +899,9 @@ exports.blocks = [
     },
     {
         "name": "form-calc"
+    },
+    {
+        "name": "hidden-xs"
     },
     {
         "name": "mvl"
@@ -946,16 +968,19 @@ exports.blocks = [
                 "name": "col",
                 "mods": [
                     {
-                        "name": "md",
+                        "name": "lg",
                         "vals": [
                             {
-                                "name": 12
+                                "name": 6
                             }
                         ]
                     }
                 ]
             }
         ]
+    },
+    {
+        "name": "form-group"
     },
     {
         "name": "row"
@@ -975,7 +1000,7 @@ exports.blocks = [
                 "name": "col",
                 "mods": [
                     {
-                        "name": "lg",
+                        "name": "sm",
                         "vals": [
                             {
                                 "name": 6
@@ -985,9 +1010,6 @@ exports.blocks = [
                 ]
             }
         ]
-    },
-    {
-        "name": "form-group"
     },
     {
         "name": "file-control"
@@ -1009,7 +1031,20 @@ exports.blocks = [
         ]
     },
     {
-        "name": "mrm"
+        "name": "btn"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "block",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "file-control"
@@ -1102,35 +1137,6 @@ exports.blocks = [
         "elems": [
             {
                 "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "sm",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },
@@ -1254,6 +1260,39 @@ exports.blocks = [
         "elems": [
             {
                 "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "portfolio"
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "portfolio"
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "portfolio"
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "description"
             }
         ]
     },
@@ -1711,6 +1750,48 @@ exports.blocks = [
         ]
     },
     {
+        "name": "fixed"
+    },
+    {
+        "name": "social-likes"
+    },
+    {
+        "name": "social-likes"
+    },
+    {
+        "name": "social-likes",
+        "mods": [
+            {
+                "name": "vertical",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "facebook"
+    },
+    {
+        "name": "vkontakte"
+    },
+    {
+        "name": "odnoklassniki"
+    },
+    {
+        "name": "fixed"
+    },
+    {
+        "name": "fixed",
+        "elems": [
+            {
+                "name": "up"
+            }
+        ]
+    },
+    {
         "name": "modal"
     },
     {
@@ -1793,9 +1874,6 @@ exports.blocks = [
     },
     {
         "name": "breadcrumb"
-    },
-    {
-        "name": "span"
     },
     {
         "name": "ul"

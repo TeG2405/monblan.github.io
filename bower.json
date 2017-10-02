@@ -9,6 +9,7 @@
     "bower_components"
   ],
   "dependencies": {
+    "social-likes": "latest",
     "html5shiv": "latest",
     "respond": "latest",
     "modernizr": "latest",

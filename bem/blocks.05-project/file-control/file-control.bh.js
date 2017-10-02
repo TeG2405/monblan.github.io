@@ -1,7 +1,7 @@
 module.exports = function (bh) {
     bh.match('file-control', function (ctx, json) {
-        ctx.content([
-            {tag: 'input', attrs: {type: 'file'}},
+        ctx.tag('label').content([
+            {tag: 'input', attrs: {type: 'file', multiple: true}},
             ctx.content()
         ], true);
     });

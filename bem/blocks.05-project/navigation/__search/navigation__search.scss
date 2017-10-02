@@ -33,6 +33,9 @@
   .header__logo{z-index: auto}
   .navigation__search{
     width: 100%;
+    @media (min-width: $screen-lg-min) {
+      width: 40%;
+    }
     + .fa,
     +.icomoon{pointer-events: none}
   }

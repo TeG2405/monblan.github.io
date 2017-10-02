@@ -3,6 +3,7 @@
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-between;
+  margin: 0 $grid-gutter-width;
   &.slick-initialized{display: block}
   .slick-track{
     display: flex;

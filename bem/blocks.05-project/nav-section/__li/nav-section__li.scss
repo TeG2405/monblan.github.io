@@ -2,20 +2,24 @@
   padding-top: $s;
   padding-bottom: $s;
   padding-left: $l;
-  margin-top: $grid-gutter-width/2;
+  margin-bottom: $grid-gutter-width/2;
   position: relative;
   background-repeat: no-repeat;
   background-position: 75% 0;
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    display: inline-block;
+    width: 100%;
+  }
   &:before{
     content: '';
     position: absolute;
     width: 6px;
     height: 6px;
     background-color: $brand-primary;
-    top: 0.6em;
+    top: 0.4em;
     left: 0;
   }
-  &:first-child{margin-top: 0}
+  &:last-child{margin-bottom: 0}
   &_line{
     &:after{
       position: absolute;

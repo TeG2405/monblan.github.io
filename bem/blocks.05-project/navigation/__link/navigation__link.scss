@@ -5,6 +5,8 @@
     flex-flow: row nowrap;
     align-items: baseline;
     justify-content: space-between;
+    font-weight: bold;
+    .navigation__dropdown &{font-weight: normal}
     .fa, .icomoon{
       cursor: pointer;
       font-size: $font-size-small;
@@ -16,8 +18,11 @@
   }
   @media (min-width: $screen-sm-min) {
     .a, a{
+      border-bottom: 1px solid transparent;
+      transition: border-bottom-color 0.35s ease;
       position: relative;
-      z-index: $zindex-dropdown + 1;
+      z-index: 100;
+      &:hover{ border-bottom-color: rgba($gray-ultra, 0.3)}
       &:before{
         visibility: hidden;
         opacity: 0;
@@ -36,7 +41,12 @@
           opacity: 1;
           visibility: visible;
         }
-        .navigation__dropdown & {content: none}
+        .navigation__dropdown & {
+          content: none;
+        }
+      }
+      .navigation__dropdown .navigation__list & {
+        &:hover{ border-bottom-color: $link-color}
       }
     }
     .fa, .icomoon{display: none}

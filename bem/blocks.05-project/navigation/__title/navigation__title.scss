@@ -1,10 +1,10 @@
 .navigation__title {
-  font-weight: bold;
   line-height: 1.1;
   padding: $s 0;
   @media (min-width: $screen-sm-min) {
     font-size: $font-size-small * 2;
     font-family: $headings-font-family;
     min-height: ($font-size-small * 4.4) + $s*2;
+    font-weight: normal;
   }
 }

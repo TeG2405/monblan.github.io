@@ -8,7 +8,7 @@
   width: $grid-gutter-width;
   pointer-events: auto;
   font-size: 1.5em;
-  z-index: $zindex-modal;
+  z-index: 110;
   overflow: hidden;
   .icomoon, .fa{
     position: relative;

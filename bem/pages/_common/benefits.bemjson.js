@@ -1,5 +1,5 @@
 module.exports = [
-    {block: 'h', size: '5', mix: {block: 'text-center'}, content: 'преимущества'},
+    {block: 'h', size: '2', mix: {block: 'text-center'}, content: 'преимущества'},
     {block: 'benefits', content: [
         [
             {

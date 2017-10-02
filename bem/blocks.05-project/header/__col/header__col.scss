@@ -30,7 +30,9 @@
     }
     @media (min-width: $screen-sm-min) {
       font-size: $font-size-small;
+      max-width: 230px;
       height: 40px;
+      margin: 0 auto;
     }
     @media (min-width: $screen-lg-min) {
       width: 195px;

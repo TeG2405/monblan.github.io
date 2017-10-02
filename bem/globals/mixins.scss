@@ -7,26 +7,26 @@
   &:focus,
   &.focus {
     color: $color;
-    background-color: darken($background, 10%);
-    border-color: darken($border, 25%);
+    //background: darken($background, 10%);
+    //border-color: darken($border, 25%);
   }
   &:hover {
     color: $color;
-    background-color: darken($background, 10%);
+    background: darken($background, 10%);
     border-color: darken($border, 12%);
   }
   &:active,
   &.active,
   .open > &.dropdown-toggle {
     color: $color;
-    background-color: darken($background, 10%);
+    background: darken($background, 10%);
     border-color: darken($border, 12%);
 
     &:hover,
     &:focus,
     &.focus {
       color: $color;
-      background-color: darken($background, 17%);
+      background: darken($background, 17%);
       border-color: darken($border, 25%);
     }
   }
@@ -41,13 +41,13 @@
     &:hover,
     &:focus,
     &.focus {
-      background-color: $background;
+      background: $background;
       border-color: $border;
     }
   }
 
   .badge {
     color: $background;
-    background-color: $color;
+    background: $color;
   }
 }

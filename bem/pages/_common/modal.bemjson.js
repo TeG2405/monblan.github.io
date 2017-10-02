@@ -16,5 +16,57 @@ module.exports = [
                 ]}
             ]}
         ]}
+    ]},
+    {block: 'modal', attrs: {id: 'MODAL_CALLBACK'}, content: [
+        {elem: 'dialog', content: [
+            {elem: 'content', content: [
+                {elem: 'header', mix: {block: 'pbm'}, content: [
+                    {block: 'close', content: [
+                        {block: 'fa', icon: 'times'}
+                    ]},
+                    {elem: 'title', content: 'Оставить заявку'}
+                ]},
+                {elem: 'body', mix: {block: 'pvm'}, content: [
+                    {block: 'form', content: [
+                        {mix: {block: 'row'}, content: [
+                            {mix: {block: 'row', elem: 'col', mods: {xs: 12}}, content: [
+                                {mix: {block: 'form-group'}, content: [
+                                    {block: 'form-control', placeholder: 'ФИО'}
+                                ]},
+                                {mix: {block: 'form-group'}, content: [
+                                    {block: 'form-control',  placeholder: 'Email'}
+                                ]},
+                                {mix: {block: 'form-group'}, content: [
+                                    {block: 'form-control',  placeholder: 'Телефон'}
+                                ]}
+                            ]},
+                            {mix: {block: 'row', elem: 'col', mods: {xs: 12}}, content: [
+                                {mix: {block: 'form-group'}, content: [
+                                    {block: 'form-control', tag: 'textarea', placeholder: 'Текст сообщения'}
+                                ]},
+                                {mix: {block: 'form-group'}, content: [
+                                    {mix: {block: 'row'}, content: [
+                                        {mix: {block: 'row', elem: 'col', mods: {xs: 12, sm: 6}}, content: [
+                                            {block: 'file-control', mix: [{block: 'btn', mods: {color: 'default', block: true}}, {block: 'hidden-xs'}], content: [
+                                                {elem: 'name', content: [
+                                                    'Прикрепить файл'
+                                                ]}
+                                            ]}
+                                        ]},
+                                        {mix: {block: 'row', elem: 'col', mods: {xs: 12, sm: 6}}, content: [
+                                            {block: 'btn', mods: {color: 'primary', block: true}, content: 'Оставить заявку'}
+                                        ]}
+                                    ]}
+                                ]}
+                            ]}
+                        ]},
+                        {mix: [{block: 'form-feedback', elem: 'description'}, {block: 'mvn'}], content: [
+                            'Отправляя заявку вы соглашаетесь с ',
+                            {block: 'a', content: 'политикой конфиденциальности'}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
     ]}
 ];

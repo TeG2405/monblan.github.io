@@ -6,7 +6,7 @@
     Block.prototype.init = function(element, option){
         this.$block = $(element);
         this.$block.slick({
-            arrows: false,
+            arrows: true,
             dots: true,
             infinite: true,
             slidesToShow: 5,

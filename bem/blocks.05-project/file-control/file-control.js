@@ -18,7 +18,7 @@
                 result.push(e.target.files[i].name);
                 i++;
             }
-            this.$name.html(result.length ? result : this.title);
+            this.$name.html(result.length ? "Выбрано: (" + result.length + ")" : this.title);
         }, this));
     };
     function Plugin(option){

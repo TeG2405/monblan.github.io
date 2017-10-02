@@ -45,12 +45,21 @@ $font-size-large:         18px;
 $font-size-small:         14px;
 $font-size-extra:         12px;
 
-$font-size-h1:            48px;
-$font-size-h2:            40px;
-$font-size-h3:            38px;
-$font-size-h4:            36px;
-$font-size-h5:            30px;
-$font-size-h6:            28px;
+//$font-size-h1:            48px;
+//$font-size-h2:            40px;
+//$font-size-h3:            38px;
+//$font-size-h4:            36px;
+//$font-size-h5:            30px;
+//$font-size-h6:            28px;
+
+$font-size-h1:            36px;
+$font-size-h2:            32px;
+$font-size-h3:            28px;
+$font-size-h4:            26px;
+$font-size-h5:            24px;
+$font-size-h6:            20px;
+
+
 
 $line-height-base:        1.5;
 $line-height-computed:    floor(($font-size-small * $line-height-base));

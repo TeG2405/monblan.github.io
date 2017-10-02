@@ -91,6 +91,8 @@ dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/form-cont
 require("../../blocks.04.2-bootstrap/form-control/form-control.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/btn/btn.bh.js"));
 require("../../blocks.04.2-bootstrap/btn/btn.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.04.1-typography/span/span.bh.js"));
+require("../../blocks.04.1-typography/span/span.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.1-typography/h/h.bh.js"));
 require("../../blocks.04.1-typography/h/h.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.1-typography/p/p.bh.js"));

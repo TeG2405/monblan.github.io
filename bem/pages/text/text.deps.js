@@ -362,6 +362,34 @@ exports.deps = [
         "elem": "copyright"
     },
     {
+        "block": "fixed"
+    },
+    {
+        "block": "social-likes"
+    },
+    {
+        "block": "social-likes",
+        "mod": "vertical"
+    },
+    {
+        "block": "social-likes",
+        "mod": "vertical",
+        "val": true
+    },
+    {
+        "block": "facebook"
+    },
+    {
+        "block": "vkontakte"
+    },
+    {
+        "block": "odnoklassniki"
+    },
+    {
+        "block": "fixed",
+        "elem": "up"
+    },
+    {
         "block": "bootstrap"
     },
     {
@@ -413,10 +441,10 @@ exports.deps = [
         "val": "primary"
     },
     {
-        "block": "breadcrumb"
+        "block": "span"
     },
     {
-        "block": "span"
+        "block": "breadcrumb"
     },
     {
         "block": "h"

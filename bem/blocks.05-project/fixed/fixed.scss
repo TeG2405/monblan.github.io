@@ -1,0 +1,25 @@
+.fixed {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  bottom: 0;
+  padding: $l $m;
+  transition: all 0.35s ease;
+  visibility: hidden;
+  opacity: 0;
+  &__up{
+    font-family: FontAwesome;
+    cursor: pointer;
+    margin: $x auto;
+    width: $g;
+    height: $g;
+    background-color: $brand-primary;
+    color: $gray-ultra;
+    border-radius: $border-radius-small;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    &:before{content: "\f106"}
+  }
+}

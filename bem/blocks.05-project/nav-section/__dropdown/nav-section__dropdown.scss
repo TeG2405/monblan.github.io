@@ -6,8 +6,10 @@
   padding-top: $s;
   margin: 0;
   font-size: $font-size-base;
-  display: none;
-  @media (min-width: $screen-md-min) {
-    display: block;
+  @media (max-width: $screen-xs-max) {
+    display: none;
+    .nav-section__li.open &{
+      display: block;
+    }
   }
 }

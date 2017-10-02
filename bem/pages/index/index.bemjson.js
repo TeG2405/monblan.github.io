@@ -11,19 +11,29 @@ module.exports = {
     content: [
         require('../_common/header.bemjson.js'),
         {block: 'main', content: [
-            {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
-                {mix: {block: 'row'}, content: [
-                    {mix: {block: 'row', elem: 'col', mods: {xs: 12,  md: 4, 'md-push': 8}}, content: [
-                        require('../_common/nav-section.bemjson.js')
+            {block: 'pattern', mods: {view: 'book'}, content: [
+                {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
+                    {mix: {block: 'row'}, content: [
+                        {mix: [
+                            {block: 'row', elem: 'col', mods: {xs: 12,  md: 8, 'md-pull': 4}},
+                            {block: 'pull-right'}
+                        ], content: [
+                            require('../_common/carousel.bemjson.js')
+                        ]},
+                        {mix: {block: 'row', elem: 'col', mods: {xs: 12,  md: 4, 'md-push': 8}}, content: [
+                            require('../_common/nav-section.bemjson.js')
+                        ]},
+                        {mix: [
+                            {block: 'row', elem: 'col', mods: {xs: 12,  md: 8, 'md-pull': 4}},
+                            {block: 'pull-right'}
+                        ], content: [
+                            require('../_common/about.bemjson.js'),
+                            require('../_common/form-calc.bemjson.js'),
+                            require('../_common/form-feedback.bemjson.js')
+                        ]}
                     ]},
-                    {mix: {block: 'row', elem: 'col', mods: {xs: 12,  md: 8, 'md-pull': 4}}, content: [
-                        require('../_common/carousel.bemjson.js'),
-                        require('../_common/about.bemjson.js'),
-                        require('../_common/form-calc.bemjson.js'),
-                        require('../_common/form-feedback.bemjson.js')
-                    ]}
-                ]},
-                require('../_common/benefits.bemjson.js')
+                    require('../_common/benefits.bemjson.js')
+                ]}
             ]},
             require('../_common/accent.bemjson.js'),
             require('../_common/portfolio.bemjson.js'),
