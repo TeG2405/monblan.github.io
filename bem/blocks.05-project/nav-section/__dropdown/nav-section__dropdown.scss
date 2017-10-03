@@ -6,7 +6,7 @@
   padding-top: $s;
   margin: 0;
   font-size: $font-size-base;
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-sm-max) {
     display: none;
     .nav-section__li.open &{
       display: block;

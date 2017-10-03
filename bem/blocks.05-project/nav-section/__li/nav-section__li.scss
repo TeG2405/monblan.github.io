@@ -19,7 +19,18 @@
     top: 0.4em;
     left: 0;
   }
-  &:last-child{margin-bottom: 0}
+  @media (max-width: $screen-sm-max) {
+    &.open:before{
+      font-size: $font-size-small;
+      font-family: icomoon;
+      content: $icon-angle-down;
+      color: $brand-primary;
+      height: auto;
+      width: auto;
+      background-color: transparent;
+      top: 0.7em;
+    }
+  }
   &_line{
     &:after{
       position: absolute;

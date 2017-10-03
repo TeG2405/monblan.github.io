@@ -252,6 +252,21 @@ exports.deps = [
         "mod": "icon"
     },
     {
+        "block": "row",
+        "elem": "col",
+        "mod": "sm"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md",
+        "val": 12
+    },
+    {
+        "block": "nav-section",
+        "elem": "list"
+    },
+    {
         "block": "nav-section",
         "elem": "li"
     },
@@ -261,10 +276,13 @@ exports.deps = [
         "mod": "line"
     },
     {
+        "block": "open"
+    },
+    {
         "block": "nav-section",
         "elem": "image",
         "mod": "icon",
-        "val": "image"
+        "val": "book"
     },
     {
         "block": "nav-section",
@@ -278,6 +296,18 @@ exports.deps = [
         "block": "nav-section",
         "elem": "image",
         "mod": "icon",
+        "val": "image"
+    },
+    {
+        "block": "nav-section",
+        "elem": "li",
+        "mod": "line",
+        "val": true
+    },
+    {
+        "block": "nav-section",
+        "elem": "image",
+        "mod": "icon",
         "val": "services"
     },
     {
@@ -285,12 +315,6 @@ exports.deps = [
         "elem": "image",
         "mod": "icon",
         "val": "typography"
-    },
-    {
-        "block": "nav-section",
-        "elem": "image",
-        "mod": "icon",
-        "val": "book"
     },
     {
         "block": "about"
@@ -331,11 +355,6 @@ exports.deps = [
     },
     {
         "block": "form-group"
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "sm"
     },
     {
         "block": "file-control"
@@ -739,10 +758,10 @@ exports.deps = [
         "val": true
     },
     {
-        "block": "nav-section",
-        "elem": "li",
-        "mod": "line",
-        "val": true
+        "block": "row",
+        "elem": "col",
+        "mod": "sm",
+        "val": 6
     },
     {
         "block": "h"
@@ -759,12 +778,6 @@ exports.deps = [
         "block": "row",
         "elem": "col",
         "mod": "lg",
-        "val": 6
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "sm",
         "val": 6
     },
     {

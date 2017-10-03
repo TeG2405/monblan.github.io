@@ -478,6 +478,50 @@ exports.blocks = [
         ]
     },
     {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "sm",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 12
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "list"
+            }
+        ]
+    },
+    {
         "name": "nav-section",
         "elems": [
             {
@@ -492,10 +536,34 @@ exports.blocks = [
                 "name": "li",
                 "mods": [
                     {
-                        "name": "line",
+                        "name": "line"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "open"
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image",
+                "mods": [
+                    {
+                        "name": "icon",
                         "vals": [
                             {
-                                "name": true
+                                "name": "book"
                             }
                         ]
                     }
@@ -507,7 +575,28 @@ exports.blocks = [
         "name": "nav-section",
         "elems": [
             {
-                "name": "image"
+                "name": "link"
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "dropdown"
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image",
+                "mods": [
+                    {
+                        "name": "icon"
+                    }
+                ]
             }
         ]
     },
@@ -533,15 +622,17 @@ exports.blocks = [
         "name": "nav-section",
         "elems": [
             {
-                "name": "link"
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "dropdown"
+                "name": "li",
+                "mods": [
+                    {
+                        "name": "line",
+                        "vals": [
+                            {
+                                "name": true
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -576,50 +667,6 @@ exports.blocks = [
                                 "name": "typography"
                             }
                         ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "li",
-                "mods": [
-                    {
-                        "name": "line"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image",
-                "mods": [
-                    {
-                        "name": "icon",
-                        "vals": [
-                            {
-                                "name": "book"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image",
-                "mods": [
-                    {
-                        "name": "icon"
                     }
                 ]
             }
@@ -704,24 +751,6 @@ exports.blocks = [
     },
     {
         "name": "form-group"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "sm",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "file-control"

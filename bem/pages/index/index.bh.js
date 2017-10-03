@@ -59,6 +59,8 @@ dropRequireCache(require, require.resolve("../../blocks.05-project/logo/logo.bh.
 require("../../blocks.05-project/logo/logo.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.05-project/main/main.bh.js"));
 require("../../blocks.05-project/main/main.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.05-project/nav-section/__list/nav-section__list.bh.js"));
+require("../../blocks.05-project/nav-section/__list/nav-section__list.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.05-project/nav-section/__li/nav-section__li.bh.js"));
 require("../../blocks.05-project/nav-section/__li/nav-section__li.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.05-project/nav-section/__link/nav-section__link.bh.js"));

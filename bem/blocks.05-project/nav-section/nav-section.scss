@@ -1,5 +1,4 @@
 .nav-section {
-  list-style: none;
   line-height: 1.1;
   font-family: $headings-font-family;
   padding: $g/2 $g $g/2 $g;
@@ -9,10 +8,6 @@
   background-position: 13% 33%, 27% 23%, 33% 13%;
   font-size: ceil($font-size-extra * 2);
   margin-bottom: $l;
-  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-    column-count: 2;
-    column-gap: 0;
-  }
   @media (min-width: $screen-lg-min) {
     padding: $l $g $g/2 $g+$l;
   }
