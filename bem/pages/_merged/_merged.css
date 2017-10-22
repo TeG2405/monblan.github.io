@@ -2597,6 +2597,40 @@
 /* end: ../../blocks.05-project/social-likes/social-likes.scss */
 
 
+/* begin: ../../blocks.05-project/catalog-section/catalog-section.scss */
+
+/* end: ../../blocks.05-project/catalog-section/catalog-section.scss */
+
+
+/* begin: ../../blocks.05-project/catalog-section/__item/catalog-section__item.scss */
+.catalog-section__item {
+  padding-bottom: 15px;
+}
+
+.catalog-section__item:nth-child(2n-1) {
+  background-color: #f2f2f2;
+}
+/* end: ../../blocks.05-project/catalog-section/__item/catalog-section__item.scss */
+
+
+/* begin: ../../blocks.05-project/tile/tile.scss */
+.tile {
+  color: inherit;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.tile .img {
+  margin: auto;
+}
+
+.tile:hover {
+  color: #a70a1d;
+}
+/* end: ../../blocks.05-project/tile/tile.scss */
+
+
 /* begin: ../../blocks.02-plugins-libraries/bootstrap/bootstrap.scss */
 @charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -5540,7 +5574,7 @@ tbody.collapse.in {
 }
 
 .breadcrumb > li + li:before {
-  content: ">> ";
+  content: "/ ";
   padding: 0 5px;
   color: #8a8a8a;
 }

@@ -1919,6 +1919,91 @@ exports.blocks = [
         "name": "breadcrumb"
     },
     {
+        "name": "catalog-section"
+    },
+    {
+        "name": "catalog-section",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "sm",
+                        "vals": [
+                            {
+                                "name": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "lg",
+                        "vals": [
+                            {
+                                "name": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "tile"
+    },
+    {
+        "name": "tile",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "mbs"
+    },
+    {
+        "name": "img",
+        "mods": [
+            {
+                "name": "shape",
+                "vals": [
+                    {
+                        "name": "circle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "tile",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "pbl"
+    },
+    {
         "name": "ul"
     },
     {

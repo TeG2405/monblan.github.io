@@ -1,0 +1,12 @@
+.tile {
+  color: inherit;
+  text-align: center;
+  display: block;
+  margin-bottom: $grid-gutter-width;
+  .img{
+    margin: auto;
+  }
+  &:hover{
+    color: $link-hover-color;
+  }
+}

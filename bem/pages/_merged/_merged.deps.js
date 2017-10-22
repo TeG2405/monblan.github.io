@@ -654,6 +654,42 @@ exports.deps = [
         "elem": "li"
     },
     {
+        "block": "catalog-section"
+    },
+    {
+        "block": "catalog-section",
+        "elem": "item"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "sm",
+        "val": 3
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "lg",
+        "val": 2
+    },
+    {
+        "block": "tile"
+    },
+    {
+        "block": "tile",
+        "elem": "image"
+    },
+    {
+        "block": "mbs"
+    },
+    {
+        "block": "tile",
+        "elem": "title"
+    },
+    {
+        "block": "pbl"
+    },
+    {
         "block": "ul",
         "elem": "li"
     },
@@ -889,6 +925,15 @@ exports.deps = [
     },
     {
         "block": "breadcrumb"
+    },
+    {
+        "block": "img",
+        "mod": "shape"
+    },
+    {
+        "block": "img",
+        "mod": "shape",
+        "val": "circle"
     },
     {
         "block": "ul"

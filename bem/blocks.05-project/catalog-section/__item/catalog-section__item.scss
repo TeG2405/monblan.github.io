@@ -1,0 +1,6 @@
+.catalog-section__item {
+  padding-bottom: $grid-gutter-width/2;
+  &:nth-child(2n-1){
+    background-color: lighten($gray-base, 95%);
+  }
+}
