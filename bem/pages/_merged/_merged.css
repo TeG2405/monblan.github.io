@@ -2614,6 +2614,17 @@
      -moz-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.catalog-section .row:before, .catalog-section .row:after {
+  content: none;
 }
 /* end: ../../blocks.05-project/catalog-section/catalog-section.scss */
 
