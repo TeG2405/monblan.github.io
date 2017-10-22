@@ -2598,7 +2598,23 @@
 
 
 /* begin: ../../blocks.05-project/catalog-section/catalog-section.scss */
-
+.catalog-section .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 /* end: ../../blocks.05-project/catalog-section/catalog-section.scss */
 
 
