@@ -2004,13 +2004,22 @@ exports.blocks = [
         "name": "pbl"
     },
     {
+        "name": "portfolio-section"
+    },
+    {
+        "name": "mtl"
+    },
+    {
+        "name": "list-square"
+    },
+    {
+        "name": "hr"
+    },
+    {
         "name": "ul"
     },
     {
         "name": "ol"
-    },
-    {
-        "name": "hr"
     },
     {
         "name": "br"

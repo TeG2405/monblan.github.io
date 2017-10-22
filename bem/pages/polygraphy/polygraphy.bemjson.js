@@ -21,7 +21,7 @@ module.exports = {
                 {block: 'h', size: '1', mix: {block: 'mtn'}, content: 'Полиграфия'},
                 {block: 'p', content: 'Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. При изготовлении полгирафии мы используем цифровую печать, шелкографию, тиснение. Специалисты нашей типографии всегда готовы оперативно '},
             ]},
-            require('../_common/catalog-section.bemjson.js'),
+            require('../_common/catalog-section-polygraphy.bemjson.js'),
             {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
                 {block: 'text-center', mix: [{block: 'mbl'}, {block: 'pbl'}], content: [
                     {mix: [{block: 'text-primary'}, {block: 'h2'}], content: 'не нашли что искали?'},

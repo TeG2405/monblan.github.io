@@ -2658,6 +2658,36 @@
 /* end: ../../blocks.05-project/tile/tile.scss */
 
 
+/* begin: ../../blocks.05-project/portfolio-section/portfolio-section.scss */
+@media (max-width: 767px) {
+  .portfolio-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .portfolio-section > div:first-child {
+    -webkit-box-ordinal-group: 101;
+    -webkit-order: 100;
+       -moz-box-ordinal-group: 101;
+        -ms-flex-order: 100;
+            order: 100;
+  }
+  .portfolio-section > div:last-child {
+    margin-bottom: 20px;
+  }
+}
+/* end: ../../blocks.05-project/portfolio-section/portfolio-section.scss */
+
+
 /* begin: ../../blocks.02-plugins-libraries/bootstrap/bootstrap.scss */
 @charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -7170,6 +7200,55 @@ img:not([class]).pull-right, img:not([class])[align='right'], img[height].pull-r
 /* end: ../../blocks.05-project/breadcrumb/breadcrumb.scss */
 
 
+/* begin: ../../blocks.05-project/list-square/list-square.scss */
+.list-square {
+  margin-top: 0;
+  margin-bottom: 1em;
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-square .list-square {
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.list-square li {
+  position: relative;
+  margin: 0.5em 0;
+  padding-left: 0.8em;
+}
+
+.list-square li:first-child {
+  margin-top: 0;
+}
+
+.list-square li:last-child {
+  margin-top: 0;
+}
+
+.list-square li:before {
+  margin-right: 0.5em;
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #ef0f29;
+  top: 0.5em;
+  left: 0;
+}
+/* end: ../../blocks.05-project/list-square/list-square.scss */
+
+
+/* begin: ../../blocks.04.1-typography/hr/hr.scss */
+hr, .hr {
+  margin: 1em 0;
+  border-color: whitesmoke;
+}
+/* end: ../../blocks.04.1-typography/hr/hr.scss */
+
+
 /* begin: ../../blocks.04.1-typography/ul/ul.scss */
 @charset "UTF-8";
 ul.ul, ul:not([class]) {
@@ -7240,14 +7319,6 @@ ol.ol li:before, ol:not([class]) li:before {
   color: #383838;
 }
 /* end: ../../blocks.04.1-typography/ol/ol.scss */
-
-
-/* begin: ../../blocks.04.1-typography/hr/hr.scss */
-hr, .hr {
-  margin: 1em 0;
-  border-color: whitesmoke;
-}
-/* end: ../../blocks.04.1-typography/hr/hr.scss */
 
 
 /* begin: ../../blocks.04.1-typography/a/_state/a_state.scss */

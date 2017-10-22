@@ -1,0 +1,14 @@
+.portfolio-section {
+  @media (max-width: $screen-xs-max) {
+    display: flex;
+    flex-flow: column nowrap;
+    >div{
+      &:first-child{
+        order: 100;
+      }
+      &:last-child{
+        margin-bottom: $l;
+      }
+    }
+  }
+}

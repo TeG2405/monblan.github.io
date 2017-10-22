@@ -690,6 +690,16 @@ exports.deps = [
         "block": "pbl"
     },
     {
+        "block": "portfolio-section"
+    },
+    {
+        "block": "mtl"
+    },
+    {
+        "block": "list-square",
+        "elem": "li"
+    },
+    {
         "block": "ul",
         "elem": "li"
     },
@@ -936,13 +946,16 @@ exports.deps = [
         "val": "circle"
     },
     {
+        "block": "list-square"
+    },
+    {
+        "block": "hr"
+    },
+    {
         "block": "ul"
     },
     {
         "block": "ol"
-    },
-    {
-        "block": "hr"
     },
     {
         "block": "br"
