@@ -1,5 +1,6 @@
 .breadcrumb {
   font-size: $font-size-small;
+  color: $breadcrumb-color;
   @media (max-width: $screen-xs-max) {
     font-size: $font-size-base;
     li{

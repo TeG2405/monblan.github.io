@@ -2650,10 +2650,23 @@
 
 .tile .img {
   margin: auto;
+  -webkit-box-shadow: 0 0 0 rgba(56, 56, 56, 0.25);
+          box-shadow: 0 0 0 rgba(56, 56, 56, 0.25);
 }
 
-.tile:hover {
+a.tile:hover {
   color: #a70a1d;
+}
+
+a.tile:hover .img {
+  -webkit-transition: -webkit-box-shadow 0.35s ease;
+  transition: -webkit-box-shadow 0.35s ease;
+  -o-transition: box-shadow 0.35s ease;
+  -moz-transition: box-shadow 0.35s ease;
+  transition: box-shadow 0.35s ease;
+  transition: box-shadow 0.35s ease, -webkit-box-shadow 0.35s ease;
+  -webkit-box-shadow: 0 0 40px rgba(56, 56, 56, 0.25);
+          box-shadow: 0 0 40px rgba(56, 56, 56, 0.25);
 }
 /* end: ../../blocks.05-project/tile/tile.scss */
 
@@ -7176,6 +7189,7 @@ img:not([class]).pull-right, img:not([class])[align='right'], img[height].pull-r
 /* begin: ../../blocks.05-project/breadcrumb/breadcrumb.scss */
 .breadcrumb {
   font-size: 14px;
+  color: #8a8a8a;
 }
 
 @media (max-width: 767px) {

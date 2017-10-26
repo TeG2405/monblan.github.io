@@ -800,5 +800,103 @@ exports.blocks = [
                 "name": "up"
             }
         ]
+    },
+    {
+        "name": "modal"
+    },
+    {
+        "name": "modal",
+        "elems": [
+            {
+                "name": "dialog"
+            }
+        ]
+    },
+    {
+        "name": "modal",
+        "elems": [
+            {
+                "name": "content"
+            }
+        ]
+    },
+    {
+        "name": "modal",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "pbm"
+    },
+    {
+        "name": "close"
+    },
+    {
+        "name": "modal",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "modal",
+        "elems": [
+            {
+                "name": "body"
+            }
+        ]
+    },
+    {
+        "name": "pvm"
+    },
+    {
+        "name": "modal",
+        "elems": [
+            {
+                "name": "footer"
+            }
+        ]
+    },
+    {
+        "name": "ptm"
+    },
+    {
+        "name": "img"
+    },
+    {
+        "name": "file-control"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "block",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "file-control",
+        "elems": [
+            {
+                "name": "name"
+            }
+        ]
+    },
+    {
+        "name": "form-feedback",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
     }
 ];

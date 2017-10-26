@@ -132,5 +132,7 @@ module.exports = [
             {block: 'odnoklassniki'}
         ]},
         {elem: 'up'}
-    ]}
+    ]},
+    require('../_common/modal.bemjson.js')
+
 ];

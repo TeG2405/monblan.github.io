@@ -222,7 +222,7 @@ $hr-border:                   $gray-lighter;
 $breadcrumb-padding-vertical:   0;
 $breadcrumb-padding-horizontal: 0;
 $breadcrumb-bg:                 transparent;
-$breadcrumb-color:              $gray;
+$breadcrumb-color:              lighten($gray-base, 54%);
 $breadcrumb-active-color:       $brand-primary;
 $breadcrumb-separator:          "/";
 

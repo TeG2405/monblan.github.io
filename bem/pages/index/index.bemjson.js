@@ -41,7 +41,6 @@ module.exports = {
                 require('../_common/articles.bemjson.js')
             ]}
         ]},
-        require('../_common/footer.bemjson.js'),
-        require('../_common/modal.bemjson.js')
+        require('../_common/footer.bemjson.js')
     ]
 };

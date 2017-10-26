@@ -87,6 +87,12 @@ dropRequireCache(require, require.resolve("../../blocks.05-project/footer/__li/f
 require("../../blocks.05-project/footer/__li/footer__li.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.X-common/fa/fa.bh.js"));
 require("../../blocks.04.X-common/fa/fa.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/close/close.bh.js"));
+require("../../blocks.04.2-bootstrap/close/close.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.05-project/file-control/file-control.bh.js"));
+require("../../blocks.05-project/file-control/file-control.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.05-project/file-control/__name/file-control__name.bh.js"));
+require("../../blocks.05-project/file-control/__name/file-control__name.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/container/container.bh.js"));
 require("../../blocks.04.2-bootstrap/container/container.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.1-typography/a/a.bh.js"));
@@ -127,6 +133,10 @@ dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/list-inli
 require("../../blocks.04.2-bootstrap/list-inline/list-inline.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/list-unstyled/list-unstyled.bh.js"));
 require("../../blocks.04.2-bootstrap/list-unstyled/list-unstyled.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/modal/modal.bh.js"));
+require("../../blocks.04.2-bootstrap/modal/modal.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.04.1-typography/img/img.bh.js"));
+require("../../blocks.04.1-typography/img/img.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.01-base/page/page.bh.js"));
 require("../../blocks.01-base/page/page.bh.js")(bh);
 

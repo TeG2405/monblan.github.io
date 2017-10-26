@@ -390,6 +390,56 @@ exports.deps = [
         "elem": "up"
     },
     {
+        "block": "modal",
+        "elem": "dialog"
+    },
+    {
+        "block": "modal",
+        "elem": "content"
+    },
+    {
+        "block": "modal",
+        "elem": "header"
+    },
+    {
+        "block": "pbm"
+    },
+    {
+        "block": "close"
+    },
+    {
+        "block": "modal",
+        "elem": "title"
+    },
+    {
+        "block": "modal",
+        "elem": "body"
+    },
+    {
+        "block": "pvm"
+    },
+    {
+        "block": "modal",
+        "elem": "footer"
+    },
+    {
+        "block": "ptm"
+    },
+    {
+        "block": "file-control"
+    },
+    {
+        "block": "file-control",
+        "elem": "name"
+    },
+    {
+        "block": "form-feedback"
+    },
+    {
+        "block": "form-feedback",
+        "elem": "description"
+    },
+    {
         "block": "bootstrap"
     },
     {
@@ -596,6 +646,21 @@ exports.deps = [
         "elem": "col",
         "mod": "lg",
         "val": 8
+    },
+    {
+        "block": "modal"
+    },
+    {
+        "block": "img"
+    },
+    {
+        "block": "btn",
+        "mod": "block"
+    },
+    {
+        "block": "btn",
+        "mod": "block",
+        "val": true
     },
     {
         "block": "space"

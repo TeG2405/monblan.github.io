@@ -45,6 +45,9 @@ module.exports = [
                                     {block: 'form-control', tag: 'textarea', placeholder: 'Текст сообщения'}
                                 ]},
                                 {mix: {block: 'form-group'}, content: [
+                                    {block: 'img', src: 'http://placehold.it/310x80?text=ReCaptcha'}
+                                ]},
+                                {mix: {block: 'form-group'}, content: [
                                     {mix: {block: 'row'}, content: [
                                         {mix: {block: 'row', elem: 'col', mods: {xs: 12, sm: 6}}, content: [
                                             {block: 'file-control', mix: [{block: 'btn', mods: {color: 'default', block: true}}, {block: 'hidden-xs'}], content: [

@@ -5,8 +5,13 @@
   margin-bottom: $grid-gutter-width;
   .img{
     margin: auto;
+    box-shadow: 0 0 0  rgba(56, 56, 56, 0.25);
   }
-  &:hover{
-    color: $link-hover-color;
+}
+a.tile:hover{
+  color: $link-hover-color;
+  .img{
+    transition: box-shadow 0.35s ease;
+    box-shadow: 0 0 40px rgba(56, 56, 56, 0.25);
   }
 }
