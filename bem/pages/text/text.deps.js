@@ -3,6 +3,15 @@ exports.deps = [
         "block": "jquery"
     },
     {
+        "block": "nav-section",
+        "elem": "image"
+    },
+    {
+        "block": "nav-section",
+        "elem": "image",
+        "mod": "icon"
+    },
+    {
         "block": "open-sans"
     },
     {
@@ -446,6 +455,12 @@ exports.deps = [
         "block": "typography"
     },
     {
+        "block": "nav-section",
+        "elem": "image",
+        "mod": "icon",
+        "val": true
+    },
+    {
         "block": "container"
     },
     {
@@ -661,6 +676,9 @@ exports.deps = [
         "block": "btn",
         "mod": "block",
         "val": true
+    },
+    {
+        "block": "nav-section"
     },
     {
         "block": "space"

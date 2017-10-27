@@ -3,6 +3,15 @@ exports.deps = [
         "block": "jquery"
     },
     {
+        "block": "nav-section",
+        "elem": "image"
+    },
+    {
+        "block": "nav-section",
+        "elem": "image",
+        "mod": "icon"
+    },
+    {
         "block": "open-sans"
     },
     {
@@ -241,15 +250,6 @@ exports.deps = [
         "block": "row",
         "elem": "col",
         "mod": "md-push"
-    },
-    {
-        "block": "nav-section",
-        "elem": "image"
-    },
-    {
-        "block": "nav-section",
-        "elem": "image",
-        "mod": "icon"
     },
     {
         "block": "row",
@@ -656,6 +656,12 @@ exports.deps = [
         "block": "typography"
     },
     {
+        "block": "nav-section",
+        "elem": "image",
+        "mod": "icon",
+        "val": true
+    },
+    {
         "block": "container"
     },
     {
@@ -752,12 +758,6 @@ exports.deps = [
         "val": 8
     },
     {
-        "block": "nav-section",
-        "elem": "image",
-        "mod": "icon",
-        "val": true
-    },
-    {
         "block": "row",
         "elem": "col",
         "mod": "sm",
@@ -832,9 +832,6 @@ exports.deps = [
         "block": "modal"
     },
     {
-        "block": "space"
-    },
-    {
         "block": "nav-section"
     },
     {
@@ -850,7 +847,7 @@ exports.deps = [
         "block": "lazyload"
     },
     {
-        "block": "page"
+        "block": "space"
     },
     {
         "block": "img",
@@ -860,5 +857,8 @@ exports.deps = [
         "block": "img",
         "mod": "lazyload",
         "val": true
+    },
+    {
+        "block": "page"
     }
 ];

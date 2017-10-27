@@ -137,6 +137,8 @@ dropRequireCache(require, require.resolve("../../blocks.04.2-bootstrap/modal/mod
 require("../../blocks.04.2-bootstrap/modal/modal.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.04.1-typography/img/img.bh.js"));
 require("../../blocks.04.1-typography/img/img.bh.js")(bh);
+dropRequireCache(require, require.resolve("../../blocks.05-project/nav-section/nav-section.bh.js"));
+require("../../blocks.05-project/nav-section/nav-section.bh.js")(bh);
 dropRequireCache(require, require.resolve("../../blocks.01-base/page/page.bh.js"));
 require("../../blocks.01-base/page/page.bh.js")(bh);
 

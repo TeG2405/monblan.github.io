@@ -366,26 +366,39 @@ exports.blocks = [
         "name": "main"
     },
     {
-        "name": "pattern"
+        "name": "breadcrumb"
     },
     {
-        "name": "pattern"
+        "name": "visible-xs"
     },
     {
-        "name": "pattern",
-        "mods": [
-            {
-                "name": "view",
-                "vals": [
-                    {
-                        "name": "book"
-                    }
-                ]
-            }
-        ]
+        "name": "h"
+    },
+    {
+        "name": "mtn"
+    },
+    {
+        "name": "p"
+    },
+    {
+        "name": "articles"
+    },
+    {
+        "name": "pvn"
     },
     {
         "name": "row"
+    },
+    {
+        "name": "articles"
+    },
+    {
+        "name": "articles",
+        "elems": [
+            {
+                "name": "list"
+            }
+        ]
     },
     {
         "name": "row"
@@ -445,224 +458,6 @@ exports.blocks = [
                 "name": "col",
                 "mods": [
                     {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 8
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md-pull",
-                        "vals": [
-                            {
-                                "name": 4
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "pull-right"
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "mods": [
-            {
-                "name": "view",
-                "vals": [
-                    {
-                        "name": "main"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "carousel"
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "caption"
-            }
-        ]
-    },
-    {
-        "name": "h1"
-    },
-    {
-        "name": "mtn"
-    },
-    {
-        "name": "mbl"
-    },
-    {
-        "name": "dot"
-    },
-    {
-        "name": "btn"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "size",
-                "vals": [
-                    {
-                        "name": "lg"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 4
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md-push",
-                        "vals": [
-                            {
-                                "name": 8
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section"
-    },
-    {
-        "name": "nav-section"
-    },
-    {
-        "name": "nav-section",
-        "mods": [
-            {
-                "name": "offset",
-                "vals": [
-                    {
-                        "name": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
                         "name": "sm",
                         "vals": [
                             {
@@ -695,13 +490,25 @@ exports.blocks = [
                         "name": "md",
                         "vals": [
                             {
-                                "name": 12
+                                "name": 4
                             }
                         ]
                     }
                 ]
             }
         ]
+    },
+    {
+        "name": "mbl"
+    },
+    {
+        "name": "pbm"
+    },
+    {
+        "name": "nav-section"
+    },
+    {
+        "name": "mbn"
     },
     {
         "name": "nav-section"
@@ -781,12 +588,7 @@ exports.blocks = [
                 "name": "image",
                 "mods": [
                     {
-                        "name": "icon",
-                        "vals": [
-                            {
-                                "name": "book"
-                            }
-                        ]
+                        "name": "icon"
                     }
                 ]
             }
@@ -815,321 +617,13 @@ exports.blocks = [
         ]
     },
     {
-        "name": "nav-section"
+        "name": "pln"
     },
     {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
+        "name": "articles"
     },
     {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image",
-                "mods": [
-                    {
-                        "name": "icon"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section"
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image",
-                "mods": [
-                    {
-                        "name": "icon",
-                        "vals": [
-                            {
-                                "name": "image"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section"
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "li"
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "li",
-                "mods": [
-                    {
-                        "name": "line",
-                        "vals": [
-                            {
-                                "name": true
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section"
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image",
-                "mods": [
-                    {
-                        "name": "icon",
-                        "vals": [
-                            {
-                                "name": "services"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "nav-section"
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "nav-section",
-        "elems": [
-            {
-                "name": "image",
-                "mods": [
-                    {
-                        "name": "icon",
-                        "vals": [
-                            {
-                                "name": "typography"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "about"
-    },
-    {
-        "name": "h"
-    },
-    {
-        "name": "p"
-    },
-    {
-        "name": "collapse"
-    },
-    {
-        "name": "collapsed"
-    },
-    {
-        "name": "form-calc"
-    },
-    {
-        "name": "hidden-xs"
-    },
-    {
-        "name": "mvl"
-    },
-    {
-        "name": "form-calc"
-    },
-    {
-        "name": "form-calc",
-        "elems": [
-            {
-                "name": "description"
-            }
-        ]
-    },
-    {
-        "name": "form-calc"
-    },
-    {
-        "name": "form-calc",
-        "elems": [
-            {
-                "name": "control"
-            }
-        ]
-    },
-    {
-        "name": "btn"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "color",
-                "vals": [
-                    {
-                        "name": "white"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "form-feedback"
-    },
-    {
-        "name": "text-center"
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "lg",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "form-group"
-    },
-    {
-        "name": "file-control"
-    },
-    {
-        "name": "btn"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "color",
-                "vals": [
-                    {
-                        "name": "default"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "btn"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "block",
-                "vals": [
-                    {
-                        "name": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "file-control"
-    },
-    {
-        "name": "file-control",
-        "elems": [
-            {
-                "name": "name"
-            }
-        ]
-    },
-    {
-        "name": "form-feedback"
-    },
-    {
-        "name": "form-feedback",
-        "elems": [
-            {
-                "name": "description"
-            }
-        ]
-    },
-    {
-        "name": "benefits"
-    },
-    {
-        "name": "benefits"
-    },
-    {
-        "name": "benefits",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "benefits"
-    },
-    {
-        "name": "benefits",
+        "name": "articles",
         "elems": [
             {
                 "name": "item"
@@ -1137,205 +631,13 @@ exports.blocks = [
         ]
     },
     {
-        "name": "benefits"
+        "name": "articles"
     },
     {
-        "name": "benefits",
+        "name": "articles",
         "elems": [
             {
                 "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "benefits"
-    },
-    {
-        "name": "benefits",
-        "elems": [
-            {
-                "name": "description"
-            }
-        ]
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "row"
-            }
-        ]
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "control"
-            }
-        ]
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "drop"
-            }
-        ]
-    },
-    {
-        "name": "phl"
-    },
-    {
-        "name": "accent"
-    },
-    {
-        "name": "accent",
-        "elems": [
-            {
-                "name": "description"
-            }
-        ]
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "xs",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "caption"
-            }
-        ]
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "title"
-            }
-        ]
-    },
-    {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "description"
             }
         ]
     },
@@ -1375,78 +677,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "text-primary"
-    },
-    {
-        "name": "h2"
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "header"
-            }
-        ]
-    },
-    {
-        "name": "mvn"
-    },
-    {
-        "name": "btn"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "color",
-                "vals": [
-                    {
-                        "name": "red"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
         "name": "articles"
     },
     {
@@ -1478,6 +708,15 @@ exports.blocks = [
                 "name": "caption"
             }
         ]
+    },
+    {
+        "name": "pagination"
+    },
+    {
+        "name": "mvn"
+    },
+    {
+        "name": "active"
     },
     {
         "name": "footer"
@@ -1541,6 +780,38 @@ exports.blocks = [
                 "mods": [
                     {
                         "name": "lg",
+                        "vals": [
+                            {
+                                "name": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "hidden-xs"
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
                         "vals": [
                             {
                                 "name": 8
@@ -1779,9 +1050,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "mbn"
-    },
-    {
         "name": "footer"
     },
     {
@@ -1871,9 +1139,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "pbm"
-    },
-    {
         "name": "close"
     },
     {
@@ -1916,7 +1181,565 @@ exports.blocks = [
         "name": "ptm"
     },
     {
-        "name": "breadcrumb"
+        "name": "form-group"
+    },
+    {
+        "name": "file-control"
+    },
+    {
+        "name": "btn"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "color",
+                "vals": [
+                    {
+                        "name": "default"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "btn"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "block",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "file-control"
+    },
+    {
+        "name": "file-control",
+        "elems": [
+            {
+                "name": "name"
+            }
+        ]
+    },
+    {
+        "name": "form-feedback"
+    },
+    {
+        "name": "form-feedback",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
+    },
+    {
+        "name": "pattern"
+    },
+    {
+        "name": "pattern",
+        "mods": [
+            {
+                "name": "view",
+                "vals": [
+                    {
+                        "name": "book"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md-pull",
+                        "vals": [
+                            {
+                                "name": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pull-right"
+    },
+    {
+        "name": "carousel"
+    },
+    {
+        "name": "carousel",
+        "mods": [
+            {
+                "name": "view",
+                "vals": [
+                    {
+                        "name": "main"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "h1"
+    },
+    {
+        "name": "dot"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "size",
+                "vals": [
+                    {
+                        "name": "lg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md-push",
+                        "vals": [
+                            {
+                                "name": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "mods": [
+            {
+                "name": "offset",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 12
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image",
+                "mods": [
+                    {
+                        "name": "icon",
+                        "vals": [
+                            {
+                                "name": "book"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image",
+                "mods": [
+                    {
+                        "name": "icon",
+                        "vals": [
+                            {
+                                "name": "image"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "li",
+                "mods": [
+                    {
+                        "name": "line",
+                        "vals": [
+                            {
+                                "name": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image",
+                "mods": [
+                    {
+                        "name": "icon",
+                        "vals": [
+                            {
+                                "name": "services"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nav-section",
+        "elems": [
+            {
+                "name": "image",
+                "mods": [
+                    {
+                        "name": "icon",
+                        "vals": [
+                            {
+                                "name": "typography"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "about"
+    },
+    {
+        "name": "collapse"
+    },
+    {
+        "name": "collapsed"
+    },
+    {
+        "name": "form-calc"
+    },
+    {
+        "name": "mvl"
+    },
+    {
+        "name": "form-calc",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
+    },
+    {
+        "name": "form-calc",
+        "elems": [
+            {
+                "name": "control"
+            }
+        ]
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "color",
+                "vals": [
+                    {
+                        "name": "white"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "text-center"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "lg",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "benefits"
+    },
+    {
+        "name": "benefits",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "benefits",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "benefits",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "benefits",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
+    },
+    {
+        "name": "accent"
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "row"
+            }
+        ]
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "control"
+            }
+        ]
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "drop"
+            }
+        ]
+    },
+    {
+        "name": "phl"
+    },
+    {
+        "name": "accent",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
+    },
+    {
+        "name": "portfolio"
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "xs",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
+    },
+    {
+        "name": "text-primary"
+    },
+    {
+        "name": "h2"
+    },
+    {
+        "name": "articles",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "color",
+                "vals": [
+                    {
+                        "name": "red"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "articles",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
     },
     {
         "name": "catalog-section"

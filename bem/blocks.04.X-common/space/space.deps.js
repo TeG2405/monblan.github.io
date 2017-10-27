@@ -1,5 +1,6 @@
 ({
     mustDeps: [
-        {block: 'typography'}
+        {block: 'typography'},
+        {block: 'nav-section'}
     ]
 })

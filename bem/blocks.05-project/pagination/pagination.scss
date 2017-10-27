@@ -1,0 +1,54 @@
+.pagination {
+  > li {
+
+    > a,
+    > span {
+      color: $text-color;
+      border-color: transparent;
+      background-color: transparent;
+      border-radius: $border-radius-base;
+    }
+    &:first-child {
+      > a,
+      > span {
+
+      }
+    }
+    &:last-child {
+      > a,
+      > span {
+
+      }
+    }
+  }
+
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      color: $link-hover-color;
+      border-color: transparent;
+      background-color: transparent;
+    }
+  }
+
+  > .active > a,
+  > .active > span {
+    &,
+    &:hover,
+    &:focus {
+
+    }
+  }
+
+  > .disabled {
+    > span,
+    > span:hover,
+    > span:focus,
+    > a,
+    > a:hover,
+    > a:focus {
+
+    }
+  }
+}
