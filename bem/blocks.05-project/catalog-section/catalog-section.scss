@@ -8,4 +8,9 @@
       content: none;
     }
   }
+  @media (max-width: $screen-xs-min) {
+    .row__col_ex_12{
+      width: 100% !important;
+    }
+  }
 }

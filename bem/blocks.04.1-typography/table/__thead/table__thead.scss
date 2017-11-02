@@ -1,0 +1,10 @@
+.table__thead {
+  th{
+    font-size: $font-size-h6;
+    text-transform: uppercase;
+    line-height: $headings-line-height;
+    font-family: $headings-font-family;
+    color: $headings-color;
+    font-weight: $headings-font-weight;
+  }
+}

@@ -1,0 +1,27 @@
+.table_media_xs {
+  @media (max-width: $screen-xs-max) {
+    td{
+      display: block !important;
+      border: none !important;
+      padding-top: $x !important;
+      padding-bottom: $x !important;
+      &:first-child{
+        border-top: 1px solid $table-border-color !important;
+        font-size: $font-size-h6;
+        text-transform: uppercase;
+        line-height: $headings-line-height;
+        font-family: $headings-font-family;
+        color: $headings-color;
+        font-weight: $headings-font-weight;
+        padding-top: $m !important;
+      }
+      &:last-child{
+        border-bottom: 1px solid $table-border-color !important;
+        padding-bottom: $m !important;
+      }
+    }
+    thead{
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.catalog-section__header {
+  margin-bottom: 0.75em;
+  width: 100%;
+  .btn{
+    margin-top: $s;
+  }
+  @media (min-width: $screen-md-min) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    .btn{
+      margin-top: 0;
+    }
+  }
+}

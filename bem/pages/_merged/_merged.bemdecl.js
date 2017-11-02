@@ -369,36 +369,13 @@ exports.blocks = [
         "name": "breadcrumb"
     },
     {
-        "name": "visible-xs"
-    },
-    {
         "name": "h"
     },
     {
         "name": "mtn"
     },
     {
-        "name": "p"
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "pvn"
-    },
-    {
         "name": "row"
-    },
-    {
-        "name": "articles"
-    },
-    {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "list"
-            }
-        ]
     },
     {
         "name": "row"
@@ -458,16 +435,22 @@ exports.blocks = [
                 "name": "col",
                 "mods": [
                     {
-                        "name": "sm",
+                        "name": "md",
                         "vals": [
                             {
-                                "name": 6
+                                "name": 8
                             }
                         ]
                     }
                 ]
             }
         ]
+    },
+    {
+        "name": "mbl"
+    },
+    {
+        "name": "p"
     },
     {
         "name": "row"
@@ -499,16 +482,7 @@ exports.blocks = [
         ]
     },
     {
-        "name": "mbl"
-    },
-    {
-        "name": "pbm"
-    },
-    {
         "name": "nav-section"
-    },
-    {
-        "name": "mbn"
     },
     {
         "name": "nav-section"
@@ -558,6 +532,9 @@ exports.blocks = [
     },
     {
         "name": "open"
+    },
+    {
+        "name": "mbn"
     },
     {
         "name": "nav-section"
@@ -618,6 +595,55 @@ exports.blocks = [
     },
     {
         "name": "pln"
+    },
+    {
+        "name": "articles"
+    },
+    {
+        "name": "pvn"
+    },
+    {
+        "name": "articles"
+    },
+    {
+        "name": "articles",
+        "elems": [
+            {
+                "name": "list"
+            }
+        ]
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "sm",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pbm"
     },
     {
         "name": "articles"
@@ -792,35 +818,6 @@ exports.blocks = [
     },
     {
         "name": "hidden-xs"
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 8
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "row"
@@ -1241,6 +1238,180 @@ exports.blocks = [
         ]
     },
     {
+        "name": "pull-right"
+    },
+    {
+        "name": "catalog-section"
+    },
+    {
+        "name": "catalog-section",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "ptl"
+    },
+    {
+        "name": "catalog-section",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "mvl"
+    },
+    {
+        "name": "phl"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "ex",
+                        "vals": [
+                            {
+                                "name": 12
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "xs",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "tile"
+    },
+    {
+        "name": "tile",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "mbs"
+    },
+    {
+        "name": "tile",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "table"
+    },
+    {
+        "name": "table",
+        "mods": [
+            {
+                "name": "media",
+                "vals": [
+                    {
+                        "name": "xs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "table-bordered"
+    },
+    {
+        "name": "table",
+        "elems": [
+            {
+                "name": "thead"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "elems": [
+            {
+                "name": "tbody"
+            }
+        ]
+    },
+    {
+        "name": "nowrap"
+    },
+    {
+        "name": "articles",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "color",
+                "vals": [
+                    {
+                        "name": "red"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "articles",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
         "name": "pattern"
     },
     {
@@ -1273,9 +1444,6 @@ exports.blocks = [
                 ]
             }
         ]
-    },
-    {
-        "name": "pull-right"
     },
     {
         "name": "carousel"
@@ -1488,9 +1656,6 @@ exports.blocks = [
         "name": "form-calc"
     },
     {
-        "name": "mvl"
-    },
-    {
         "name": "form-calc",
         "elems": [
             {
@@ -1627,9 +1792,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "phl"
-    },
-    {
         "name": "accent",
         "elems": [
             {
@@ -1653,24 +1815,6 @@ exports.blocks = [
         "elems": [
             {
                 "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "xs",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },
@@ -1713,46 +1857,6 @@ exports.blocks = [
         "name": "h2"
     },
     {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "header"
-            }
-        ]
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "color",
-                "vals": [
-                    {
-                        "name": "red"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "articles",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "catalog-section"
-    },
-    {
-        "name": "catalog-section",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
         "name": "row",
         "elems": [
             {
@@ -1789,20 +1893,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "tile"
-    },
-    {
-        "name": "tile",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "mbs"
-    },
-    {
         "name": "img",
         "mods": [
             {
@@ -1812,14 +1902,6 @@ exports.blocks = [
                         "name": "circle"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "tile",
-        "elems": [
-            {
-                "name": "title"
             }
         ]
     },
@@ -1868,17 +1950,6 @@ exports.blocks = [
     },
     {
         "name": "b"
-    },
-    {
-        "name": "table"
-    },
-    {
-        "name": "table",
-        "elems": [
-            {
-                "name": "tbody"
-            }
-        ]
     },
     {
         "name": "checkbox"

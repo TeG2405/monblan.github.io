@@ -13,7 +13,7 @@ module.exports = {
         {block: 'main', content: [
             {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
                 {block: 'breadcrumb', content: [
-                    {block: 'a', mix: {block: 'visible-xs'}, content: 'Главная'},
+                    {block: 'a', content: 'Главная'},
                     {block: 'span', content: 'Полиграфия'}
                 ]},
                 {block: 'h', size: '1', mix: {block: 'mtn'}, content: 'Полиграфия'},

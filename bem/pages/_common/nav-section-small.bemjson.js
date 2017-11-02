@@ -19,7 +19,7 @@ function getList(map, images, flag){
 }
 
 module.exports = [
-    {block: 'nav-section', mix: [{block: 'mbn'}],content: [
+    {block: 'nav-section',content: [
         {elem: 'list', content: [
             getList({
                 'Вас может заинтересовать': [
