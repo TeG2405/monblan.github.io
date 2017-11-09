@@ -1,0 +1,6 @@
+.jump__inner {
+  @media (max-width: $screen-xs-max) {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}

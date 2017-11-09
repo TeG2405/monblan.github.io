@@ -329,7 +329,9 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
             dots: true,
             infinite: true,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 6000
         });
     };
     function Plugin(option){
@@ -364,6 +366,8 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
             infinite: true,
             slidesToShow: 5,
             slidesToScroll: 5,
+            autoplay: true,
+            autoplaySpeed: 6000,
             responsive: [
                 {
                     breakpoint: 1200-1,
@@ -444,6 +448,8 @@ this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+th
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 6000,
             responsive: [
                 {
                     breakpoint: 992-1,

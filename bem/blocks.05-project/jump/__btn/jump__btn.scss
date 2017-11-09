@@ -1,0 +1,9 @@
+.jump__btn {
+  &:before{content: 'Скрыть'}
+  &.collapsed{
+    &:before{content: 'Подробнее'}
+  }
+  @media (min-width: $screen-sm-min) {
+    display: none !important;
+  }
+}

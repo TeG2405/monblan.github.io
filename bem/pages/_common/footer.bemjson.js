@@ -126,12 +126,16 @@ module.exports = [
       ]}
     ]},
     {block: 'fixed', content: [
-        {block: 'social-likes', mods: {vertical: true}, attrs: {"data-counters" : "no"}, content: [
-            {block: 'facebook'},
-            {block: 'vkontakte'},
-            {block: 'odnoklassniki'}
-        ]},
-        {elem: 'up'}
+        {elem: 'container', content: [
+            {elem: 'inner', content: [
+                {block: 'social-likes', mods: {vertical: true}, attrs: {"data-counters" : "no"}, content: [
+                    {block: 'facebook'},
+                    {block: 'vkontakte'},
+                    {block: 'odnoklassniki'}
+                ]},
+                {elem: 'up'}
+            ]}
+        ]}
     ]},
     require('../_common/modal.bemjson.js')
 

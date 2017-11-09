@@ -1291,6 +1291,22 @@ exports.blocks = [
         "name": "fixed"
     },
     {
+        "name": "fixed",
+        "elems": [
+            {
+                "name": "container"
+            }
+        ]
+    },
+    {
+        "name": "fixed",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
         "name": "social-likes"
     },
     {

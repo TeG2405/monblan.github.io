@@ -6,5 +6,6 @@
     font-family: $headings-font-family;
     color: $headings-color;
     font-weight: $headings-font-weight;
+    background-color: lighten($gray-base, 91%);
   }
 }

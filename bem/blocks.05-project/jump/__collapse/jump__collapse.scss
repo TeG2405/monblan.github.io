@@ -1,0 +1,6 @@
+.jump__collapse {
+  @media (min-width: $screen-sm-min) {
+    display: block !important;
+    height: auto !important;
+  }
+}

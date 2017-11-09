@@ -589,6 +589,14 @@ exports.deps = [
         "block": "fixed"
     },
     {
+        "block": "fixed",
+        "elem": "container"
+    },
+    {
+        "block": "fixed",
+        "elem": "inner"
+    },
+    {
         "block": "social-likes"
     },
     {

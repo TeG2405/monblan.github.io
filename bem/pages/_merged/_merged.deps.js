@@ -389,6 +389,14 @@ exports.deps = [
         "block": "fixed"
     },
     {
+        "block": "fixed",
+        "elem": "container"
+    },
+    {
+        "block": "fixed",
+        "elem": "inner"
+    },
+    {
         "block": "social-likes"
     },
     {
@@ -464,7 +472,29 @@ exports.deps = [
         "elem": "description"
     },
     {
+        "block": "jump"
+    },
+    {
+        "block": "jump",
+        "elem": "inner"
+    },
+    {
         "block": "pull-right"
+    },
+    {
+        "block": "jump",
+        "elem": "image"
+    },
+    {
+        "block": "jump",
+        "elem": "collapse"
+    },
+    {
+        "block": "collapse"
+    },
+    {
+        "block": "jump",
+        "elem": "btn"
     },
     {
         "block": "catalog-section"
@@ -629,9 +659,6 @@ exports.deps = [
     },
     {
         "block": "about"
-    },
-    {
-        "block": "collapse"
     },
     {
         "block": "collapsed"

@@ -1812,9 +1812,10 @@
 .fixed {
   position: fixed;
   z-index: 100;
-  right: 0;
   bottom: 0;
-  padding: 20px 10px;
+  right: 0;
+  left: 0;
+  padding: 0;
   -webkit-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
@@ -1822,45 +1823,28 @@
   visibility: hidden;
   opacity: 0;
 }
-
-.fixed__up {
-  font-family: FontAwesome;
-  cursor: pointer;
-  margin: 3px auto;
-  margin-top: 30px;
-  width: 30px;
-  height: 30px;
-  background-color: #ef0f29;
-  color: white;
-  border-radius: 3px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: column nowrap;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.fixed__up:before {
-  content: "\f106";
-}
 /* end: ../../blocks.05-project/fixed/fixed.scss */
+
+
+/* begin: ../../blocks.05-project/fixed/__container/fixed__container.scss */
+.fixed__container {
+  margin: 0 auto;
+  max-width: 1290px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  height: 0;
+}
+/* end: ../../blocks.05-project/fixed/__container/fixed__container.scss */
+
+
+/* begin: ../../blocks.05-project/fixed/__inner/fixed__inner.scss */
+.fixed__inner {
+  position: absolute;
+  bottom: 100%;
+  right: 15px;
+}
+/* end: ../../blocks.05-project/fixed/__inner/fixed__inner.scss */
 
 
 /* begin: ../../blocks.05-project/social-likes/social-likes.scss */
@@ -1871,7 +1855,7 @@
 .social-likes__button {
   cursor: pointer;
   display: block;
-  margin: 3px auto;
+  margin: 3px 0;
   width: 30px;
   height: 30px;
   background-color: #ef0f29;
@@ -1923,6 +1907,48 @@
   content: "\f263";
 }
 /* end: ../../blocks.05-project/social-likes/social-likes.scss */
+
+
+/* begin: ../../blocks.05-project/fixed/__up/fixed__up.scss */
+.fixed__up {
+  font-family: FontAwesome;
+  cursor: pointer;
+  margin: 3px 0;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: #ef0f29;
+  color: white;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fixed__up:before {
+  content: "\f106";
+}
+/* end: ../../blocks.05-project/fixed/__up/fixed__up.scss */
 
 
 /* begin: ../../blocks.05-project/file-control/file-control.scss */
@@ -1980,6 +2006,71 @@
   text-decoration: underline;
 }
 /* end: ../../blocks.05-project/form-feedback/__description/form-feedback__description.scss */
+
+
+/* begin: ../../blocks.05-project/jump/jump.scss */
+.jump {
+  margin-bottom: 60px;
+}
+/* end: ../../blocks.05-project/jump/jump.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__inner/jump__inner.scss */
+@media (max-width: 767px) {
+  .jump__inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+/* end: ../../blocks.05-project/jump/__inner/jump__inner.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__image/jump__image.scss */
+@media (max-width: 767px) {
+  .jump__image {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+  }
+}
+/* end: ../../blocks.05-project/jump/__image/jump__image.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__collapse/jump__collapse.scss */
+@media (min-width: 768px) {
+  .jump__collapse {
+    display: block !important;
+    height: auto !important;
+  }
+}
+/* end: ../../blocks.05-project/jump/__collapse/jump__collapse.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__btn/jump__btn.scss */
+@charset "UTF-8";
+.jump__btn:before {
+  content: 'Скрыть';
+}
+
+.jump__btn.collapsed:before {
+  content: 'Подробнее';
+}
+
+@media (min-width: 768px) {
+  .jump__btn {
+    display: none !important;
+  }
+}
+/* end: ../../blocks.05-project/jump/__btn/jump__btn.scss */
 
 
 /* begin: ../../blocks.05-project/catalog-section/catalog-section.scss */
@@ -2090,6 +2181,7 @@
 
 .tile .img.img-circle {
   border-radius: 50%;
+  border: 1px solid rgba(56, 56, 56, 0.25);
 }
 
 a.tile:hover {
@@ -2117,6 +2209,7 @@ a.tile:hover .img {
   font-family: "RexBold", Helvetica, Arial, sans-serif;
   color: inherit;
   font-weight: normal;
+  background-color: #e8e8e8;
 }
 /* end: ../../blocks.04.1-typography/table/__thead/table__thead.scss */
 
@@ -7289,7 +7382,7 @@ table:not(class) > tfoot > tr > td {
 
 table:not(class) > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #ddd !important;
 }
 
 table:not(class) > caption + thead > tr:first-child > th,
@@ -7307,6 +7400,16 @@ table:not(class) > tbody + tbody {
 
 table:not(class) .table {
   background-color: #fff;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+  border-left: none !important;
+  border-right: none !important;
 }
 /* end: ../../blocks.04.1-typography/table/table.scss */
 

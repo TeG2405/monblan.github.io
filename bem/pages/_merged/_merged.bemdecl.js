@@ -1061,6 +1061,28 @@ exports.blocks = [
         "name": "fixed"
     },
     {
+        "name": "fixed"
+    },
+    {
+        "name": "fixed",
+        "elems": [
+            {
+                "name": "container"
+            }
+        ]
+    },
+    {
+        "name": "fixed"
+    },
+    {
+        "name": "fixed",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
         "name": "social-likes"
     },
     {
@@ -1238,7 +1260,45 @@ exports.blocks = [
         ]
     },
     {
+        "name": "jump"
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
         "name": "pull-right"
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "collapse"
+            }
+        ]
+    },
+    {
+        "name": "collapse"
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "btn"
+            }
+        ]
     },
     {
         "name": "catalog-section"
@@ -1645,9 +1705,6 @@ exports.blocks = [
     },
     {
         "name": "about"
-    },
-    {
-        "name": "collapse"
     },
     {
         "name": "collapsed"
