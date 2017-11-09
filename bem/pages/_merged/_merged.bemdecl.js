@@ -1914,6 +1914,52 @@ exports.blocks = [
         "name": "h2"
     },
     {
+        "name": "carousel",
+        "mods": [
+            {
+                "name": "view",
+                "vals": [
+                    {
+                        "name": "works"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "list-square"
+    },
+    {
+        "name": "hr"
+    },
+    {
+        "name": "quote"
+    },
+    {
+        "name": "quote",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "quote",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
         "name": "row",
         "elems": [
             {
@@ -1970,12 +2016,6 @@ exports.blocks = [
     },
     {
         "name": "mtl"
-    },
-    {
-        "name": "list-square"
-    },
-    {
-        "name": "hr"
     },
     {
         "name": "ul"

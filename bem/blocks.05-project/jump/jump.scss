@@ -1,3 +1,4 @@
 .jump {
-  margin-bottom: $grid-gutter-width *2;
+  margin-bottom: $grid-gutter-width;
+  @include clearfix;
 }

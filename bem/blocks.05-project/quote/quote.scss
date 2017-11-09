@@ -1,0 +1,8 @@
+.quote {
+  @media (min-width: $screen-md-min) {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

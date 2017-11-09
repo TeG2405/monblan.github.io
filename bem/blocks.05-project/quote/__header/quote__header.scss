@@ -1,0 +1,18 @@
+.quote__header {
+  margin-bottom: 0.75em;
+  width: 100%;
+  .btn{
+    margin-top: $s;
+  }
+  @media (min-width: $screen-md-min) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: $grid-gutter-width;
+    width: 300px;
+    h2, .h2{
+      font-size: $font-size-h1;
+    }
+  }
+}

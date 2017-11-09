@@ -756,6 +756,30 @@ exports.deps = [
         "block": "h2"
     },
     {
+        "block": "carousel",
+        "mod": "view",
+        "val": "works"
+    },
+    {
+        "block": "carousel",
+        "elem": "title"
+    },
+    {
+        "block": "list-square",
+        "elem": "li"
+    },
+    {
+        "block": "quote"
+    },
+    {
+        "block": "quote",
+        "elem": "header"
+    },
+    {
+        "block": "quote",
+        "elem": "inner"
+    },
+    {
         "block": "row",
         "elem": "col",
         "mod": "sm",
@@ -775,10 +799,6 @@ exports.deps = [
     },
     {
         "block": "mtl"
-    },
-    {
-        "block": "list-square",
-        "elem": "li"
     },
     {
         "block": "ul",
@@ -1026,6 +1046,12 @@ exports.deps = [
         "elem": "col"
     },
     {
+        "block": "list-square"
+    },
+    {
+        "block": "hr"
+    },
+    {
         "block": "img",
         "mod": "shape"
     },
@@ -1033,12 +1059,6 @@ exports.deps = [
         "block": "img",
         "mod": "shape",
         "val": "circle"
-    },
-    {
-        "block": "list-square"
-    },
-    {
-        "block": "hr"
     },
     {
         "block": "ul"
