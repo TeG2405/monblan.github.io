@@ -1205,6 +1205,63 @@
 /* end: ../../blocks.05-project/main/main.scss */
 
 
+/* begin: ../../blocks.05-project/jump/jump.scss */
+.jump {
+  margin-bottom: 30px;
+}
+
+.jump:before, .jump:after {
+  content: " ";
+  display: table;
+}
+
+.jump:after {
+  clear: both;
+}
+/* end: ../../blocks.05-project/jump/jump.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__inner/jump__inner.scss */
+@media (max-width: 767px) {
+  .jump__inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+/* end: ../../blocks.05-project/jump/__inner/jump__inner.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__tile/jump__tile.scss */
+.jump__tile {
+  margin-left: 30px;
+  width: 360px;
+}
+
+@media (max-width: 767px) {
+  .jump__tile {
+    margin-left: 0 !important;
+    width: 100% !important;
+    -webkit-box-ordinal-group: 101;
+    -webkit-order: 100;
+       -moz-box-ordinal-group: 101;
+        -ms-flex-order: 100;
+            order: 100;
+    margin-top: 30px;
+  }
+}
+/* end: ../../blocks.05-project/jump/__tile/jump__tile.scss */
+
+
 /* begin: ../../blocks.05-project/nav-section/__list/nav-section__list.scss */
 .nav-section__list {
   list-style: none;
@@ -1330,6 +1387,34 @@
   }
 }
 /* end: ../../blocks.05-project/nav-section/__dropdown/nav-section__dropdown.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__collapse/jump__collapse.scss */
+@media (min-width: 768px) {
+  .jump__collapse {
+    display: block !important;
+    height: auto !important;
+  }
+}
+/* end: ../../blocks.05-project/jump/__collapse/jump__collapse.scss */
+
+
+/* begin: ../../blocks.05-project/jump/__btn/jump__btn.scss */
+@charset "UTF-8";
+.jump__btn:before {
+  content: 'Скрыть';
+}
+
+.jump__btn.collapsed:before {
+  content: 'Подробнее';
+}
+
+@media (min-width: 768px) {
+  .jump__btn {
+    display: none !important;
+  }
+}
+/* end: ../../blocks.05-project/jump/__btn/jump__btn.scss */
 
 
 /* begin: ../../blocks.02-plugins/slick-carousel/slick-carousel.scss */
@@ -2008,42 +2093,6 @@
 /* end: ../../blocks.05-project/form-feedback/__description/form-feedback__description.scss */
 
 
-/* begin: ../../blocks.05-project/jump/jump.scss */
-.jump {
-  margin-bottom: 30px;
-}
-
-.jump:before, .jump:after {
-  content: " ";
-  display: table;
-}
-
-.jump:after {
-  clear: both;
-}
-/* end: ../../blocks.05-project/jump/jump.scss */
-
-
-/* begin: ../../blocks.05-project/jump/__inner/jump__inner.scss */
-@media (max-width: 767px) {
-  .jump__inner {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: column nowrap;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-  }
-}
-/* end: ../../blocks.05-project/jump/__inner/jump__inner.scss */
-
-
 /* begin: ../../blocks.05-project/jump/__image/jump__image.scss */
 @media (max-width: 767px) {
   .jump__image {
@@ -2052,34 +2101,6 @@
   }
 }
 /* end: ../../blocks.05-project/jump/__image/jump__image.scss */
-
-
-/* begin: ../../blocks.05-project/jump/__collapse/jump__collapse.scss */
-@media (min-width: 768px) {
-  .jump__collapse {
-    display: block !important;
-    height: auto !important;
-  }
-}
-/* end: ../../blocks.05-project/jump/__collapse/jump__collapse.scss */
-
-
-/* begin: ../../blocks.05-project/jump/__btn/jump__btn.scss */
-@charset "UTF-8";
-.jump__btn:before {
-  content: 'Скрыть';
-}
-
-.jump__btn.collapsed:before {
-  content: 'Подробнее';
-}
-
-@media (min-width: 768px) {
-  .jump__btn {
-    display: none !important;
-  }
-}
-/* end: ../../blocks.05-project/jump/__btn/jump__btn.scss */
 
 
 /* begin: ../../blocks.05-project/catalog-section/catalog-section.scss */

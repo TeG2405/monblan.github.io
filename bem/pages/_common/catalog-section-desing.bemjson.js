@@ -14,7 +14,7 @@ module.exports = [
                             {mix: {block: 'row'}, content: [
                                 list[header].map((title)=>{
                                     return {mix: {block: 'row', elem: 'col', mods: {ex: 12, xs: 6, sm: 6, md: 3}}, content: [
-                                        {block: 'tile', content: [
+                                        {block: 'tile', mix: {block: 'pbs'}, content: [
                                             {elem: 'image', mix: {block: 'mbs'}, content: [
                                                 {block: 'img', src: '../../../upload/article-1.jpg', mods: {lazyload: true, responsive: true}}
                                             ]},

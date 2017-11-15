@@ -1,5 +1,5 @@
 module.exports = [
-    {block: 'articles', mix: [{block: 'pvn'}], content: [
+    {block: 'articles', mix: [{block: 'pvn'}, {block: 'mtn'}], content: [
         {mix: {block: 'row'}, content: [
             {elem: 'list', content:
                 (function (item) {

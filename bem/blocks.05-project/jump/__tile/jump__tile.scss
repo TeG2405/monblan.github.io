@@ -1,0 +1,10 @@
+.jump__tile {
+  margin-left: $grid-gutter-width;
+  width: 360px;
+  @media (max-width: $screen-xs-max) {
+    margin-left: 0 !important;
+    width: 100% !important;
+    order: 100;
+    margin-top: $grid-gutter-width;
+  }
+}

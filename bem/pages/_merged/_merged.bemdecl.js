@@ -375,109 +375,30 @@ exports.blocks = [
         "name": "mtn"
     },
     {
-        "name": "row"
+        "name": "jump"
     },
     {
-        "name": "row"
+        "name": "jump"
     },
     {
-        "name": "row",
+        "name": "jump",
         "elems": [
             {
-                "name": "col"
+                "name": "inner"
             }
         ]
     },
     {
-        "name": "row"
+        "name": "pull-right"
     },
     {
-        "name": "row",
+        "name": "jump"
+    },
+    {
+        "name": "jump",
         "elems": [
             {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "xs",
-                        "vals": [
-                            {
-                                "name": 12
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 8
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "mbl"
-    },
-    {
-        "name": "p"
-    },
-    {
-        "name": "row"
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 4
-                            }
-                        ]
-                    }
-                ]
+                "name": "tile"
             }
         ]
     },
@@ -597,10 +518,41 @@ exports.blocks = [
         "name": "pln"
     },
     {
+        "name": "p"
+    },
+    {
+        "name": "jump"
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "collapse"
+            }
+        ]
+    },
+    {
+        "name": "collapse"
+    },
+    {
+        "name": "jump"
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "btn"
+            }
+        ]
+    },
+    {
         "name": "articles"
     },
     {
         "name": "pvn"
+    },
+    {
+        "name": "row"
     },
     {
         "name": "articles"
@@ -610,6 +562,46 @@ exports.blocks = [
         "elems": [
             {
                 "name": "list"
+            }
+        ]
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "xs",
+                        "vals": [
+                            {
+                                "name": 12
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -641,6 +633,38 @@ exports.blocks = [
                 ]
             }
         ]
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "mbl"
     },
     {
         "name": "pbm"
@@ -818,6 +842,35 @@ exports.blocks = [
     },
     {
         "name": "hidden-xs"
+    },
+    {
+        "name": "row"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "row"
@@ -1260,43 +1313,10 @@ exports.blocks = [
         ]
     },
     {
-        "name": "jump"
-    },
-    {
-        "name": "jump",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "pull-right"
-    },
-    {
         "name": "jump",
         "elems": [
             {
                 "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "jump",
-        "elems": [
-            {
-                "name": "collapse"
-            }
-        ]
-    },
-    {
-        "name": "collapse"
-    },
-    {
-        "name": "jump",
-        "elems": [
-            {
-                "name": "btn"
             }
         ]
     },
@@ -1384,6 +1404,9 @@ exports.blocks = [
     },
     {
         "name": "tile"
+    },
+    {
+        "name": "pbs"
     },
     {
         "name": "tile",
