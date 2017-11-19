@@ -1,0 +1,77 @@
+.reviews-slider {
+  margin: 0 $grid-gutter-width/-2 $grid-gutter-width*3;
+  @include clearfix;
+  &__item{
+    padding-left: $grid-gutter-width/2;
+    padding-right: $grid-gutter-width/2;
+    float: left;
+    width: 50%;
+    @media (min-width: $screen-sm-min) {
+      width: 25%;
+    }
+    .a{
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #dddddd;
+      padding: $l;
+      position: relative;
+      transition: 0.35s ease;
+      &:before{
+        opacity: 0;
+        font-family: FontAwesome;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        content: "\f002";
+        color: $link-color;
+        font-size: 24px;
+        transition: 0.35s ease;
+        background-color: #dddddd;
+      }
+      &:hover{
+        &:before{
+          opacity: 1;
+          background-color: rgba(134, 134, 134, 0.2);
+        }
+      }
+    }
+  }
+  .slick-dots{
+    margin-top: $m;
+    top: 100%;
+    li{
+      border: 2px solid lighten($gray-base, 91%);
+      &.slick-active{
+        background-color: $brand-primary;
+        border-color: $brand-primary;
+      }
+    }
+  }
+  .slick-arrow{
+    margin: 0 $grid-gutter-width;
+    &:before{
+      background-color: rgba(0, 0, 0, 0.2);
+      text-indent: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -0.7em;
+      width: 1.4em;
+      height: 1.4em;
+      text-align: center;
+      line-height: 1.4;
+      vertical-align: middle;
+    }
+    @media (min-width: $screen-sm-min) {
+      height: auto;
+    }
+  }
+}

@@ -72,7 +72,7 @@ module.exports = {
                 {block: 'hr'},
                 {block: 'quote', content: [
                     {elem: 'header', content: [
-                        {block: 'h', size: 2, mix: {block: 'mvn'}, content: 'Печать листовок'},
+                        {block: 'h', size: 2, mix: {block: 'mtn'}, content: 'Печать листовок'},
                         {block: 'btn', mods: {color: 'red'}, content: 'Заказть дизайн'}    
                     ]},
                     {elem: 'inner', content: [

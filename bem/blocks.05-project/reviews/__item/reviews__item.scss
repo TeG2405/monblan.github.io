@@ -1,0 +1,11 @@
+.reviews__item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: $grid-gutter-width;
+  @media (max-width: $screen-xs-max) {
+    flex-direction: column;
+    text-align: center;
+  }
+}

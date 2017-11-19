@@ -1,8 +1,13 @@
 .quote__header {
-  margin-bottom: 0.75em;
+  margin-bottom: $font-size-h2 * 0.75;
   width: 100%;
   .btn{
     margin-top: $s;
+  }
+  @media (max-width: $screen-sm-max) {
+    h2, .h2{
+      margin-bottom: $m;
+    }
   }
   @media (min-width: $screen-md-min) {
     display: flex;

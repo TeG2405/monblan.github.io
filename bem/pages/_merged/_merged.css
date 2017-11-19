@@ -3132,12 +3132,18 @@ a.tile:hover .img {
 
 /* begin: ../../blocks.05-project/quote/__header/quote__header.scss */
 .quote__header {
-  margin-bottom: 0.75em;
+  margin-bottom: 24px;
   width: 100%;
 }
 
 .quote__header .btn {
   margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+  .quote__header h2, .quote__header .h2 {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -3202,6 +3208,254 @@ a.tile:hover .img {
   }
 }
 /* end: ../../blocks.05-project/portfolio-section/portfolio-section.scss */
+
+
+/* begin: ../../blocks.05-project/reviews-slider/reviews-slider.scss */
+.reviews-slider {
+  margin: 0 -15px 90px;
+}
+
+.reviews-slider:before, .reviews-slider:after {
+  content: " ";
+  display: table;
+}
+
+.reviews-slider:after {
+  clear: both;
+}
+
+.reviews-slider__item {
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .reviews-slider__item {
+    width: 25%;
+  }
+}
+
+.reviews-slider__item .a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #dddddd;
+  padding: 20px;
+  position: relative;
+  -webkit-transition: 0.35s ease;
+  -o-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.reviews-slider__item .a:before {
+  opacity: 0;
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  content: "\f002";
+  color: #ef0f29;
+  font-size: 24px;
+  -webkit-transition: 0.35s ease;
+  -o-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  transition: 0.35s ease;
+  background-color: #dddddd;
+}
+
+.reviews-slider__item .a:hover:before {
+  opacity: 1;
+  background-color: rgba(134, 134, 134, 0.2);
+}
+
+.reviews-slider .slick-dots {
+  margin-top: 10px;
+  top: 100%;
+}
+
+.reviews-slider .slick-dots li {
+  border: 2px solid #e8e8e8;
+}
+
+.reviews-slider .slick-dots li.slick-active {
+  background-color: #ef0f29;
+  border-color: #ef0f29;
+}
+
+.reviews-slider .slick-arrow {
+  margin: 0 30px;
+}
+
+.reviews-slider .slick-arrow:before {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-indent: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.7em;
+  width: 1.4em;
+  height: 1.4em;
+  text-align: center;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .reviews-slider .slick-arrow {
+    height: auto;
+  }
+}
+/* end: ../../blocks.05-project/reviews-slider/reviews-slider.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/reviews.scss */
+.reviews {
+  margin-bottom: 20px;
+}
+/* end: ../../blocks.05-project/reviews/reviews.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__item/reviews__item.scss */
+.reviews__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .reviews__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+/* end: ../../blocks.05-project/reviews/__item/reviews__item.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__image/reviews__image.scss */
+.reviews__image {
+  margin-right: 30px;
+  width: 165px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .reviews__image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+/* end: ../../blocks.05-project/reviews/__image/reviews__image.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__body/reviews__body.scss */
+
+/* end: ../../blocks.05-project/reviews/__body/reviews__body.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__text/reviews__text.scss */
+.reviews__text {
+  margin-bottom: 10px;
+}
+/* end: ../../blocks.05-project/reviews/__text/reviews__text.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__name/reviews__name.scss */
+.reviews__name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* end: ../../blocks.05-project/reviews/__name/reviews__name.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__date/reviews__date.scss */
+
+/* end: ../../blocks.05-project/reviews/__date/reviews__date.scss */
+
+
+/* begin: ../../blocks.05-project/well/well.scss */
+.well {
+  background-color: white;
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+/* end: ../../blocks.05-project/well/well.scss */
 
 
 /* begin: ../../blocks.02-plugins-libraries/bootstrap/bootstrap.scss */

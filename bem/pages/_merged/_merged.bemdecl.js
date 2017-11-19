@@ -2041,6 +2041,79 @@ exports.blocks = [
         "name": "mtl"
     },
     {
+        "name": "reviews-slider"
+    },
+    {
+        "name": "reviews-slider",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "reviews-slider",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "reviews"
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "body"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "text"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "name"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "date"
+            }
+        ]
+    },
+    {
+        "name": "well"
+    },
+    {
         "name": "ul"
     },
     {

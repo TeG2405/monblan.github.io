@@ -421,6 +421,52 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 /* end: ../../blocks.05-project/benefits/benefits.js */
 
 
+/* begin: ../../blocks.05-project/reviews-slider/reviews-slider.js */
++function($){
+    var Block = function(element, option){
+        this.$block = null;
+        this.init(element, option);
+    };
+    Block.prototype.init = function(element, option){
+        this.$block = $(element);
+        this.$inner = this.$block.find('.reviews-slider__inner'); 
+        this.$inner.slick({
+            arrows: true,
+            dots: true,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            autoplaySpeed: 6000,
+            responsive: [
+                {
+                    breakpoint: 768 + 1,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+            ]
+        });
+    };
+    function Plugin(option){
+        return this.each(function () {
+            var $this   = $(this);
+            var data    = $this.data('block.reviews_slider');
+            var options = typeof option == 'object' && option;
+
+            if (!data) $this.data('block.reviews_slider', (data = new Block(this, options)));
+            if (typeof option == 'string') data[option]();
+        })
+    }
+
+    $.fn.block_reviews_slider = Plugin;
+    $.fn.block_reviews_slider.Constructor = Block;
+    $('.reviews-slider').block_reviews_slider();
+}(jQuery);;
+/* end: ../../blocks.05-project/reviews-slider/reviews-slider.js */
+
+
 /* begin: ../../blocks.02-plugins-libraries/bootstrap/bootstrap.js */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

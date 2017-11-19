@@ -808,6 +808,47 @@ exports.deps = [
         "block": "mtl"
     },
     {
+        "block": "reviews-slider"
+    },
+    {
+        "block": "reviews-slider",
+        "elem": "inner"
+    },
+    {
+        "block": "reviews-slider",
+        "elem": "item"
+    },
+    {
+        "block": "reviews"
+    },
+    {
+        "block": "reviews",
+        "elem": "item"
+    },
+    {
+        "block": "reviews",
+        "elem": "image"
+    },
+    {
+        "block": "reviews",
+        "elem": "body"
+    },
+    {
+        "block": "reviews",
+        "elem": "text"
+    },
+    {
+        "block": "reviews",
+        "elem": "name"
+    },
+    {
+        "block": "reviews",
+        "elem": "date"
+    },
+    {
+        "block": "well"
+    },
+    {
         "block": "ul",
         "elem": "li"
     },

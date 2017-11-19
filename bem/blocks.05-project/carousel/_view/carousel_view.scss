@@ -138,22 +138,22 @@
     }
   }
   .slick-arrow{
-    height: 200px;
-    &:before{
-      background-color: rgba(0, 0, 0, 0.2);
-      text-indent: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: -0.7em;
-      width: 1.4em;
-      height: 1.4em;
-      text-align: center;
-      line-height: 1.4;
-      vertical-align: middle;
-    }
-    @media (min-width: $screen-sm-min) {
-      height: auto;
-    }
-  }
+     height: 200px;
+     &:before{
+       background-color: rgba(0, 0, 0, 0.2);
+       text-indent: 0;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       margin: -0.7em;
+       width: 1.4em;
+       height: 1.4em;
+       text-align: center;
+       line-height: 1.4;
+       vertical-align: middle;
+     }
+     @media (min-width: $screen-sm-min) {
+       height: auto;
+     }
+   }
 }
