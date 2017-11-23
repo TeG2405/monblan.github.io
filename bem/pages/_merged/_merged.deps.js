@@ -808,6 +808,19 @@ exports.deps = [
         "block": "mtl"
     },
     {
+        "block": "link-collapse"
+    },
+    {
+        "block": "portfolio",
+        "elem": "more"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md",
+        "val": 6
+    },
+    {
         "block": "reviews-slider"
     },
     {
@@ -1109,6 +1122,9 @@ exports.deps = [
         "val": "circle"
     },
     {
+        "block": "b"
+    },
+    {
         "block": "ul"
     },
     {
@@ -1131,9 +1147,6 @@ exports.deps = [
     },
     {
         "block": "small"
-    },
-    {
-        "block": "b"
     },
     {
         "block": "checkbox"

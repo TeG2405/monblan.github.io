@@ -674,9 +674,6 @@ exports.deps = [
         "block": "modal"
     },
     {
-        "block": "img"
-    },
-    {
         "block": "btn",
         "mod": "block"
     },

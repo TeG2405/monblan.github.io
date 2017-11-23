@@ -3210,6 +3210,47 @@ a.tile:hover .img {
 /* end: ../../blocks.05-project/portfolio-section/portfolio-section.scss */
 
 
+/* begin: ../../blocks.05-project/link-collapse/link-collapse.scss */
+.link-collapse {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.link-collapse .a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.link-collapse .a span {
+  border-bottom: 1px dashed;
+}
+
+.link-collapse .a:after {
+  font-family: FontAwesome;
+  content: "\f0d8";
+  margin-left: 10px;
+  font-size: 80%;
+}
+
+.link-collapse .a.collapsed:after {
+  content: "\f0d7";
+}
+/* end: ../../blocks.05-project/link-collapse/link-collapse.scss */
+
+
+/* begin: ../../blocks.05-project/portfolio/__more/portfolio__more.scss */
+.portfolio__more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.portfolio__more a {
+  text-decoration: none !important;
+  border-bottom: 1px dashed;
+}
+/* end: ../../blocks.05-project/portfolio/__more/portfolio__more.scss */
+
+
 /* begin: ../../blocks.05-project/reviews-slider/reviews-slider.scss */
 .reviews-slider {
   margin: 0 -15px 90px;

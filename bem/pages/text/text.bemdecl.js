@@ -881,9 +881,6 @@ exports.blocks = [
         "name": "ptm"
     },
     {
-        "name": "img"
-    },
-    {
         "name": "file-control"
     },
     {

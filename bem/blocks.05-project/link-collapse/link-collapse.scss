@@ -1,0 +1,22 @@
+.link-collapse {
+  font-size: 26px;
+  margin-bottom: $l;
+  .a{
+    text-decoration: none !important;
+    border-bottom: none !important;
+    span{
+      border-bottom: 1px dashed;
+    }
+    &:after{
+      font-family: FontAwesome;
+      content: "\f0d8";
+      margin-left: $m;
+      font-size: 80%;
+    }
+    &.collapsed{
+      &:after{
+        content: "\f0d7";
+      }
+    }
+  }
+}

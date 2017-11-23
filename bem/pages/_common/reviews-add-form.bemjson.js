@@ -25,9 +25,9 @@ module.exports = [
                 ]},
                 {mix: {block: 'row', elem: 'col', mods: {xs: 12}}, content: [
 
-                    {mix: {block: 'form-group'}, content: [
-                        {block: 'img', src: 'http://placehold.it/310x80?text=ReCaptcha'}
-                    ]},
+                    // {mix: {block: 'form-group'}, content: [
+                    //     {block: 'img', src: 'http://placehold.it/310x80?text=ReCaptcha'}
+                    // ]},
                     {mix: {block: 'form-group'}, content: [
                         {mix: {block: 'row'}, content: [
                             {mix: {block: 'row', elem: 'col', mods: {xs: 12, sm: 6}}, content: [

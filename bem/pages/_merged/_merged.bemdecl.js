@@ -2041,6 +2041,38 @@ exports.blocks = [
         "name": "mtl"
     },
     {
+        "name": "b"
+    },
+    {
+        "name": "link-collapse"
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "more"
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "reviews-slider"
     },
     {
@@ -2140,9 +2172,6 @@ exports.blocks = [
     },
     {
         "name": "small"
-    },
-    {
-        "name": "b"
     },
     {
         "name": "checkbox"
