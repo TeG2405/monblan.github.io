@@ -808,6 +808,25 @@ exports.deps = [
         "block": "mtl"
     },
     {
+        "block": "tile-list"
+    },
+    {
+        "block": "tile-list",
+        "elem": "item"
+    },
+    {
+        "block": "tile-list",
+        "elem": "caption"
+    },
+    {
+        "block": "tile-list",
+        "elem": "title"
+    },
+    {
+        "block": "tile-list",
+        "elem": "image"
+    },
+    {
         "block": "link-collapse"
     },
     {

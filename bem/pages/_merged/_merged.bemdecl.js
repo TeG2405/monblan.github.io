@@ -2041,6 +2041,41 @@ exports.blocks = [
         "name": "mtl"
     },
     {
+        "name": "tile-list"
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
         "name": "b"
     },
     {
