@@ -588,8 +588,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'icomoon';
-  src: url("../../blocks.03-fonts/icomoon/fonts/icomoon.eot?30ppw0");
-  src: url("../../blocks.03-fonts/icomoon/fonts/icomoon.eot?30ppw0#iefix") format("embedded-opentype"), url("../../blocks.03-fonts/icomoon/fonts/icomoon.ttf?30ppw0") format("truetype"), url("../../blocks.03-fonts/icomoon/fonts/icomoon.woff?30ppw0") format("woff"), url("../../blocks.03-fonts/icomoon/fonts/icomoon.svg?30ppw0#icomoon") format("svg");
+  src: url("../../blocks.03-fonts/icomoon/fonts/icomoon.eot?y864pv");
+  src: url("../../blocks.03-fonts/icomoon/fonts/icomoon.eot?y864pv#iefix") format("embedded-opentype"), url("../../blocks.03-fonts/icomoon/fonts/icomoon.ttf?y864pv") format("truetype"), url("../../blocks.03-fonts/icomoon/fonts/icomoon.woff?y864pv") format("woff"), url("../../blocks.03-fonts/icomoon/fonts/icomoon.svg?y864pv#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -606,6 +606,38 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-step-1:before {
+  content: "";
+}
+
+.icon-step-2:before {
+  content: "";
+}
+
+.icon-step-3:before {
+  content: "";
+}
+
+.icon-step-4:before {
+  content: "";
+}
+
+.icon-step-5:before {
+  content: "";
+}
+
+.icon-step-6:before {
+  content: "";
+}
+
+.icon-step-7:before {
+  content: "";
+}
+
+.icon-step-8:before {
+  content: "";
 }
 
 .icon-aircraft:before {
@@ -3295,6 +3327,131 @@ a.tile:hover .img {
 /* end: ../../blocks.05-project/tile-list/tile-list.scss */
 
 
+/* begin: ../../blocks.05-project/controls-box/controls-box.scss */
+.controls-box .btn-lg {
+  padding: 0px 0px;
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.controls-box .btn-lg .icomoon {
+  font-size: 1.6em;
+  margin-right: 20px;
+}
+/* end: ../../blocks.05-project/controls-box/controls-box.scss */
+
+
+/* begin: ../../blocks.05-project/tile-counter/tile-counter.scss */
+.tile-counter__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.tile-counter__item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tile-counter__item .icomoon {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 100px;
+  text-align: center;
+  line-height: 1;
+  color: #bababa;
+}
+
+.tile-counter__count {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-color: #ef0f29;
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  top: 50%;
+  margin-top: -1em;
+}
+
+.tile-counter__link {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tile-counter__description {
+  font-size: 14px;
+}
+/* end: ../../blocks.05-project/tile-counter/tile-counter.scss */
+
+
+/* begin: ../../blocks.05-project/tile-counter/__title/tile-counter__title.scss */
+.tile-counter__title {
+  line-height: 1.1;
+  color: inherit;
+  display: block;
+  position: relative;
+}
+
+.tile-counter__title:hover {
+  color: #ef0f29;
+}
+
+.tile-counter__title:hover .icomoon {
+  color: #ef0f29;
+}
+/* end: ../../blocks.05-project/tile-counter/__title/tile-counter__title.scss */
+
+
 /* begin: ../../blocks.05-project/link-collapse/link-collapse.scss */
 .link-collapse {
   font-size: 26px;
@@ -3334,6 +3491,106 @@ a.tile:hover .img {
   border-bottom: 1px dashed;
 }
 /* end: ../../blocks.05-project/portfolio/__more/portfolio__more.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/reviews.scss */
+.reviews {
+  margin-bottom: 20px;
+}
+/* end: ../../blocks.05-project/reviews/reviews.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__item/reviews__item.scss */
+.reviews__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .reviews__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+/* end: ../../blocks.05-project/reviews/__item/reviews__item.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__image/reviews__image.scss */
+.reviews__image {
+  margin-right: 30px;
+  width: 165px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .reviews__image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+/* end: ../../blocks.05-project/reviews/__image/reviews__image.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__body/reviews__body.scss */
+
+/* end: ../../blocks.05-project/reviews/__body/reviews__body.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__name/reviews__name.scss */
+.reviews__name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* end: ../../blocks.05-project/reviews/__name/reviews__name.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__name/_size/reviews__name_size.scss */
+.reviews__name_size_lg {
+  font-size: 20px;
+  line-height: 1.2;
+}
+/* end: ../../blocks.05-project/reviews/__name/_size/reviews__name_size.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__text/reviews__text.scss */
+.reviews__text {
+  margin-bottom: 10px;
+}
+/* end: ../../blocks.05-project/reviews/__text/reviews__text.scss */
+
+
+/* begin: ../../blocks.05-project/reviews/__date/reviews__date.scss */
+
+/* end: ../../blocks.05-project/reviews/__date/reviews__date.scss */
 
 
 /* begin: ../../blocks.05-project/reviews-slider/reviews-slider.scss */
@@ -3478,98 +3735,6 @@ a.tile:hover .img {
   }
 }
 /* end: ../../blocks.05-project/reviews-slider/reviews-slider.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/reviews.scss */
-.reviews {
-  margin-bottom: 20px;
-}
-/* end: ../../blocks.05-project/reviews/reviews.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/__item/reviews__item.scss */
-.reviews__item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row nowrap;
-     -moz-box-orient: horizontal;
-     -moz-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-     -moz-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 767px) {
-  .reviews__item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-}
-/* end: ../../blocks.05-project/reviews/__item/reviews__item.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/__image/reviews__image.scss */
-.reviews__image {
-  margin-right: 30px;
-  width: 165px;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-}
-
-@media (max-width: 767px) {
-  .reviews__image {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-}
-/* end: ../../blocks.05-project/reviews/__image/reviews__image.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/__body/reviews__body.scss */
-
-/* end: ../../blocks.05-project/reviews/__body/reviews__body.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/__text/reviews__text.scss */
-.reviews__text {
-  margin-bottom: 10px;
-}
-/* end: ../../blocks.05-project/reviews/__text/reviews__text.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/__name/reviews__name.scss */
-.reviews__name {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-/* end: ../../blocks.05-project/reviews/__name/reviews__name.scss */
-
-
-/* begin: ../../blocks.05-project/reviews/__date/reviews__date.scss */
-
-/* end: ../../blocks.05-project/reviews/__date/reviews__date.scss */
 
 
 /* begin: ../../blocks.05-project/well/well.scss */

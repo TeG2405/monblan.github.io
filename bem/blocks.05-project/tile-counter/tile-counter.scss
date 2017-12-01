@@ -1,0 +1,44 @@
+.tile-counter {
+  &__inner{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  &__item{
+    margin-top: $l;
+    margin-bottom: $l;
+    .icomoon{
+      position: relative;
+      display: block;
+      margin-bottom: $l;
+      font-size: 100px;
+      text-align: center;
+      line-height: 1;
+      color: #bababa;
+    }
+  }
+  &__count{
+    font-family: $font-family-base;
+    background-color: $link-color;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    color: $gray-ultra;
+    font-size: $font-size-small;
+    top: 50%;
+    margin-top: -1em;
+  }
+  &__link{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: $m;
+  }
+  &__description{
+    font-size: $font-size-small;
+  }
+}

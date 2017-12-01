@@ -1,0 +1,14 @@
+.controls-box {
+  .btn-lg{
+    @include button-size(0px, 0px, 20px, 1, $border-radius-large);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    .icomoon{
+      font-size: 1.6em;
+      margin-right: 20px;
+    }
+  }
+}

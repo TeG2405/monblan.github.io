@@ -2076,7 +2076,61 @@ exports.blocks = [
         ]
     },
     {
+        "name": "controls-box"
+    },
+    {
         "name": "b"
+    },
+    {
+        "name": "tile-counter"
+    },
+    {
+        "name": "tile-counter",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "tile-counter",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "tile-counter",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "tile-counter",
+        "elems": [
+            {
+                "name": "count"
+            }
+        ]
+    },
+    {
+        "name": "tile-counter",
+        "elems": [
+            {
+                "name": "link"
+            }
+        ]
+    },
+    {
+        "name": "tile-counter",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
     },
     {
         "name": "link-collapse"
@@ -2104,25 +2158,6 @@ exports.blocks = [
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "reviews-slider"
-    },
-    {
-        "name": "reviews-slider",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "reviews-slider",
-        "elems": [
-            {
-                "name": "item"
             }
         ]
     },
@@ -2157,14 +2192,6 @@ exports.blocks = [
         "name": "reviews",
         "elems": [
             {
-                "name": "text"
-            }
-        ]
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
                 "name": "name"
             }
         ]
@@ -2173,7 +2200,55 @@ exports.blocks = [
         "name": "reviews",
         "elems": [
             {
+                "name": "name",
+                "mods": [
+                    {
+                        "name": "size",
+                        "vals": [
+                            {
+                                "name": "lg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "text"
+            }
+        ]
+    },
+    {
+        "name": "text-right"
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
                 "name": "date"
+            }
+        ]
+    },
+    {
+        "name": "reviews-slider"
+    },
+    {
+        "name": "reviews-slider",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "reviews-slider",
+        "elems": [
+            {
+                "name": "item"
             }
         ]
     },

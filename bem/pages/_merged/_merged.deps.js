@@ -827,6 +827,36 @@ exports.deps = [
         "elem": "image"
     },
     {
+        "block": "controls-box"
+    },
+    {
+        "block": "tile-counter"
+    },
+    {
+        "block": "tile-counter",
+        "elem": "inner"
+    },
+    {
+        "block": "tile-counter",
+        "elem": "item"
+    },
+    {
+        "block": "tile-counter",
+        "elem": "title"
+    },
+    {
+        "block": "tile-counter",
+        "elem": "count"
+    },
+    {
+        "block": "tile-counter",
+        "elem": "link"
+    },
+    {
+        "block": "tile-counter",
+        "elem": "description"
+    },
+    {
         "block": "link-collapse"
     },
     {
@@ -838,17 +868,6 @@ exports.deps = [
         "elem": "col",
         "mod": "md",
         "val": 6
-    },
-    {
-        "block": "reviews-slider"
-    },
-    {
-        "block": "reviews-slider",
-        "elem": "inner"
-    },
-    {
-        "block": "reviews-slider",
-        "elem": "item"
     },
     {
         "block": "reviews"
@@ -867,15 +886,34 @@ exports.deps = [
     },
     {
         "block": "reviews",
-        "elem": "text"
-    },
-    {
-        "block": "reviews",
         "elem": "name"
     },
     {
         "block": "reviews",
+        "elem": "name",
+        "mod": "size"
+    },
+    {
+        "block": "reviews",
+        "elem": "text"
+    },
+    {
+        "block": "text-right"
+    },
+    {
+        "block": "reviews",
         "elem": "date"
+    },
+    {
+        "block": "reviews-slider"
+    },
+    {
+        "block": "reviews-slider",
+        "elem": "inner"
+    },
+    {
+        "block": "reviews-slider",
+        "elem": "item"
     },
     {
         "block": "well"
@@ -1142,6 +1180,12 @@ exports.deps = [
     },
     {
         "block": "b"
+    },
+    {
+        "block": "reviews",
+        "elem": "name",
+        "mod": "size",
+        "val": "lg"
     },
     {
         "block": "ul"

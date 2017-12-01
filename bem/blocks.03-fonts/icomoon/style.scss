@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?30ppw0');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?30ppw0#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?30ppw0') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?30ppw0') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?30ppw0#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?y864pv');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?y864pv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?y864pv') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?y864pv') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?y864pv#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-step-1 {
+  &:before {
+    content: $icon-step-1;
+  }
+}
+.icon-step-2 {
+  &:before {
+    content: $icon-step-2;
+  }
+}
+.icon-step-3 {
+  &:before {
+    content: $icon-step-3;
+  }
+}
+.icon-step-4 {
+  &:before {
+    content: $icon-step-4;
+  }
+}
+.icon-step-5 {
+  &:before {
+    content: $icon-step-5;
+  }
+}
+.icon-step-6 {
+  &:before {
+    content: $icon-step-6;
+  }
+}
+.icon-step-7 {
+  &:before {
+    content: $icon-step-7;
+  }
+}
+.icon-step-8 {
+  &:before {
+    content: $icon-step-8;
+  }
+}
 .icon-aircraft {
   &:before {
     content: $icon-aircraft;

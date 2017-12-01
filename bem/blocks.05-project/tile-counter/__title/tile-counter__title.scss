@@ -1,0 +1,12 @@
+.tile-counter__title {
+  line-height: 1.1;
+  color: $headings-color;
+  display: block;
+  position: relative;
+  &:hover{
+    color: $link-color;
+    .icomoon{
+      color: $link-color;
+    }
+  }
+}

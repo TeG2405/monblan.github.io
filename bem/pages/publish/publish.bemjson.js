@@ -38,18 +38,25 @@ module.exports = {
                 {block: 'h', size: '2', content: 'Варианты издания книг'},
                 require('../_common/tile-list.bemjson.js'),
                 {block: 'h', size: '2', content: 'Сколько стоит издать книгу'},
-                {block: 'p', content: 'Издание книг зависит от многих вводных. С ценами на отдельные этапы Вы можете ознакомиться по ссылкам на схеме выше. Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. '},
-                {block: 'p', content: [
-                    {block: 'b', content: 'Также Вы можете воспользоваться калькулятором для детального расчета  или услугами нашего менеджера '}
-                ]},
-                {block: 'btn', mods: {color: 'primary', size: 'lg', block: true}, attrs: {'data-toggle': 'modal', 'data-target': '#MODAL_CALLBACK'}, content: [
-                    {block: 'icomoon', icon: 'calculator'},
-                    {block: 'span', content: 'Расчитать тираж'}
-                ]},
-                {block: 'btn', mods: {color: 'red', size: 'lg', block: true}, attrs: {'data-toggle': 'modal', 'data-target': '#MODAL_CALLBACK'}, content: [
-                    {block: 'span', content: 'Связь с менеджером'}
+                {block: 'controls-box', mix: {block: 'row'}, content: [
+                    {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 8, lg: 9}}, content: [
+                        {block: 'p', content: 'Издание книг зависит от многих вводных. С ценами на отдельные этапы Вы можете ознакомиться по ссылкам на схеме выше. Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. '},
+                        {block: 'p', content: [
+                            {block: 'b', content: 'Также Вы можете воспользоваться калькулятором для детального расчета  или услугами нашего менеджера '}
+                        ]}
+                    ]},
+                    {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 4, lg: 3}}, content: [
+                        {block: 'btn', mods: {color: 'primary', size: 'lg', block: true}, mix: {block: 'mbl'}, content: [
+                            {block: 'icomoon', icon: 'calculator'},
+                            {block: 'span', content: 'Расчитать тираж'}
+                        ]},
+                        {block: 'btn', mods: {color: 'red', size: 'lg', block: true}, attrs: {'data-toggle': 'modal', 'data-target': '#MODAL_CALLBACK'}, content: [
+                            {block: 'span', content: 'Связь с менеджером'}
+                        ]}
+                    ]}
                 ]},
                 {block: 'h', mix: {block: 'text-center'}, size: '2', content: 'Этапы издания книг'},
+                require('../_common/tile-counter.bemjson.js'),
                 {block: 'h', size: '2', content: 'Издание книг малым тиражом'},
                 {block: 'p', content: 'Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. При изготовлении полгирафии мы используем цифровую печать, шелкографию, тиснение. Специалисты нашей типографии всегда готовы оперативно выполнить Ваш заказ от допечатной подготовки до выпуска готовой продукции. '},
                 {block: 'p', content: 'Мы всегда рады новым клиентам и надеемся на сотрудничество! '},
@@ -65,10 +72,18 @@ module.exports = {
             {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
                 {mix: {block: 'row'}, content: [
                     {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 6}}, content: [
-                        {block: 'h', size: '2', content: 'Отзывы клиентов'}
+                        {block: 'h', size: '2', content: 'Отзывы клиентов'},
+                        require('../_common/reviews-light.bemjson.js'),
+                        {block: 'text-right', content: [
+                            {block: 'btn', mods: {color: 'red'}, content: 'Другие отзывы'}
+                        ]}
                     ]},
                     {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 6}}, content: [
-                        {block: 'h', size: '2', content: 'Статьи'}
+                        {block: 'h', size: '2', content: 'Статьи'},
+                        require('../_common/articles-list-light.bemjson.js'),
+                        {block: 'text-right', content: [
+                            {block: 'btn', mods: {color: 'red'}, content: 'Другие статьи'}
+                        ]}
                     ]}
                 ]}
             ]}
