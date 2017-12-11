@@ -1,0 +1,15 @@
+.feature {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url('../../../upload/bg.jpg');
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  &__title{
+    font-size: 30px;
+    color: $gray-ultra;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+}

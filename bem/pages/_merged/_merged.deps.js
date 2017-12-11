@@ -497,8 +497,36 @@ exports.deps = [
         "elem": "description"
     },
     {
-        "block": "jump",
-        "elem": "image"
+        "block": "carousel"
+    },
+    {
+        "block": "carousel",
+        "mod": "view"
+    },
+    {
+        "block": "carousel",
+        "mod": "view",
+        "val": "works"
+    },
+    {
+        "block": "carousel",
+        "elem": "item"
+    },
+    {
+        "block": "carousel",
+        "elem": "inner"
+    },
+    {
+        "block": "carousel",
+        "elem": "caption"
+    },
+    {
+        "block": "carousel",
+        "elem": "title"
+    },
+    {
+        "block": "list-square",
+        "elem": "li"
     },
     {
         "block": "catalog-section"
@@ -506,19 +534,6 @@ exports.deps = [
     {
         "block": "catalog-section",
         "elem": "item"
-    },
-    {
-        "block": "ptl"
-    },
-    {
-        "block": "catalog-section",
-        "elem": "header"
-    },
-    {
-        "block": "mvl"
-    },
-    {
-        "block": "phl"
     },
     {
         "block": "row",
@@ -553,6 +568,164 @@ exports.deps = [
     {
         "block": "tile",
         "elem": "title"
+    },
+    {
+        "block": "tile-list"
+    },
+    {
+        "block": "tile-list",
+        "elem": "item"
+    },
+    {
+        "block": "tile-list",
+        "elem": "caption"
+    },
+    {
+        "block": "tile-list",
+        "elem": "title"
+    },
+    {
+        "block": "tile-list",
+        "elem": "image"
+    },
+    {
+        "block": "link-collapse"
+    },
+    {
+        "block": "in"
+    },
+    {
+        "block": "collapsed"
+    },
+    {
+        "block": "text-center"
+    },
+    {
+        "block": "pbl"
+    },
+    {
+        "block": "text-primary"
+    },
+    {
+        "block": "h2"
+    },
+    {
+        "block": "quote"
+    },
+    {
+        "block": "quote",
+        "elem": "header"
+    },
+    {
+        "block": "quote",
+        "elem": "inner"
+    },
+    {
+        "block": "mvl"
+    },
+    {
+        "block": "feature"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md",
+        "val": 6
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md-offset"
+    },
+    {
+        "block": "feature",
+        "elem": "title"
+    },
+    {
+        "block": "mtl"
+    },
+    {
+        "block": "portfolio"
+    },
+    {
+        "block": "portfolio",
+        "elem": "inner"
+    },
+    {
+        "block": "portfolio",
+        "elem": "item"
+    },
+    {
+        "block": "portfolio",
+        "elem": "caption"
+    },
+    {
+        "block": "portfolio",
+        "elem": "title"
+    },
+    {
+        "block": "portfolio",
+        "elem": "description"
+    },
+    {
+        "block": "portfolio",
+        "elem": "more"
+    },
+    {
+        "block": "reviews"
+    },
+    {
+        "block": "reviews",
+        "elem": "item"
+    },
+    {
+        "block": "reviews",
+        "elem": "image"
+    },
+    {
+        "block": "reviews",
+        "elem": "body"
+    },
+    {
+        "block": "reviews",
+        "elem": "name"
+    },
+    {
+        "block": "reviews",
+        "elem": "name",
+        "mod": "size"
+    },
+    {
+        "block": "reviews",
+        "elem": "text"
+    },
+    {
+        "block": "text-right"
+    },
+    {
+        "block": "visible-xs"
+    },
+    {
+        "block": "reviews",
+        "elem": "date"
+    },
+    {
+        "block": "ul",
+        "elem": "li"
+    },
+    {
+        "block": "jump",
+        "elem": "image"
+    },
+    {
+        "block": "ptl"
+    },
+    {
+        "block": "catalog-section",
+        "elem": "header"
+    },
+    {
+        "block": "phl"
     },
     {
         "block": "table-bordered"
@@ -594,28 +767,9 @@ exports.deps = [
         "mod": "md-pull"
     },
     {
-        "block": "carousel"
-    },
-    {
-        "block": "carousel",
-        "mod": "view"
-    },
-    {
         "block": "carousel",
         "mod": "view",
         "val": "main"
-    },
-    {
-        "block": "carousel",
-        "elem": "item"
-    },
-    {
-        "block": "carousel",
-        "elem": "inner"
-    },
-    {
-        "block": "carousel",
-        "elem": "caption"
     },
     {
         "block": "h1"
@@ -668,9 +822,6 @@ exports.deps = [
         "block": "about"
     },
     {
-        "block": "collapsed"
-    },
-    {
         "block": "form-calc"
     },
     {
@@ -680,9 +831,6 @@ exports.deps = [
     {
         "block": "form-calc",
         "elem": "control"
-    },
-    {
-        "block": "text-center"
     },
     {
         "block": "row",
@@ -734,59 +882,6 @@ exports.deps = [
         "elem": "description"
     },
     {
-        "block": "portfolio"
-    },
-    {
-        "block": "portfolio",
-        "elem": "inner"
-    },
-    {
-        "block": "portfolio",
-        "elem": "item"
-    },
-    {
-        "block": "portfolio",
-        "elem": "caption"
-    },
-    {
-        "block": "portfolio",
-        "elem": "title"
-    },
-    {
-        "block": "portfolio",
-        "elem": "description"
-    },
-    {
-        "block": "text-primary"
-    },
-    {
-        "block": "h2"
-    },
-    {
-        "block": "carousel",
-        "mod": "view",
-        "val": "works"
-    },
-    {
-        "block": "carousel",
-        "elem": "title"
-    },
-    {
-        "block": "list-square",
-        "elem": "li"
-    },
-    {
-        "block": "quote"
-    },
-    {
-        "block": "quote",
-        "elem": "header"
-    },
-    {
-        "block": "quote",
-        "elem": "inner"
-    },
-    {
         "block": "row",
         "elem": "col",
         "mod": "sm",
@@ -799,32 +894,7 @@ exports.deps = [
         "val": 2
     },
     {
-        "block": "pbl"
-    },
-    {
         "block": "portfolio-section"
-    },
-    {
-        "block": "mtl"
-    },
-    {
-        "block": "tile-list"
-    },
-    {
-        "block": "tile-list",
-        "elem": "item"
-    },
-    {
-        "block": "tile-list",
-        "elem": "caption"
-    },
-    {
-        "block": "tile-list",
-        "elem": "title"
-    },
-    {
-        "block": "tile-list",
-        "elem": "image"
     },
     {
         "block": "controls-box"
@@ -857,54 +927,6 @@ exports.deps = [
         "elem": "description"
     },
     {
-        "block": "link-collapse"
-    },
-    {
-        "block": "portfolio",
-        "elem": "more"
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "md",
-        "val": 6
-    },
-    {
-        "block": "reviews"
-    },
-    {
-        "block": "reviews",
-        "elem": "item"
-    },
-    {
-        "block": "reviews",
-        "elem": "image"
-    },
-    {
-        "block": "reviews",
-        "elem": "body"
-    },
-    {
-        "block": "reviews",
-        "elem": "name"
-    },
-    {
-        "block": "reviews",
-        "elem": "name",
-        "mod": "size"
-    },
-    {
-        "block": "reviews",
-        "elem": "text"
-    },
-    {
-        "block": "text-right"
-    },
-    {
-        "block": "reviews",
-        "elem": "date"
-    },
-    {
         "block": "reviews-slider"
     },
     {
@@ -917,10 +939,6 @@ exports.deps = [
     },
     {
         "block": "well"
-    },
-    {
-        "block": "ul",
-        "elem": "li"
     },
     {
         "block": "ol",
@@ -1104,10 +1122,61 @@ exports.deps = [
         "val": true
     },
     {
+        "block": "list-square"
+    },
+    {
         "block": "row",
         "elem": "col",
         "mod": "ex",
         "val": 12
+    },
+    {
+        "block": "accordion"
+    },
+    {
+        "block": "btn",
+        "mod": "size"
+    },
+    {
+        "block": "btn",
+        "mod": "size",
+        "val": "lg"
+    },
+    {
+        "block": "hr"
+    },
+    {
+        "block": "btn",
+        "mod": "color",
+        "val": "red"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md-offset",
+        "val": 6
+    },
+    {
+        "block": "portfolio",
+        "elem": "col"
+    },
+    {
+        "block": "img",
+        "mod": "shape"
+    },
+    {
+        "block": "img",
+        "mod": "shape",
+        "val": "circle"
+    },
+    {
+        "block": "reviews",
+        "elem": "name",
+        "mod": "size",
+        "val": "lg"
+    },
+    {
+        "block": "ul"
     },
     {
         "block": "table"
@@ -1122,24 +1191,10 @@ exports.deps = [
         "val": "xs"
     },
     {
-        "block": "btn",
-        "mod": "color",
-        "val": "red"
-    },
-    {
         "block": "row",
         "elem": "col",
         "mod": "md-pull",
         "val": 4
-    },
-    {
-        "block": "btn",
-        "mod": "size"
-    },
-    {
-        "block": "btn",
-        "mod": "size",
-        "val": "lg"
     },
     {
         "block": "row",
@@ -1160,35 +1215,7 @@ exports.deps = [
         "elem": "col"
     },
     {
-        "block": "portfolio",
-        "elem": "col"
-    },
-    {
-        "block": "list-square"
-    },
-    {
-        "block": "hr"
-    },
-    {
-        "block": "img",
-        "mod": "shape"
-    },
-    {
-        "block": "img",
-        "mod": "shape",
-        "val": "circle"
-    },
-    {
         "block": "b"
-    },
-    {
-        "block": "reviews",
-        "elem": "name",
-        "mod": "size",
-        "val": "lg"
-    },
-    {
-        "block": "ul"
     },
     {
         "block": "ol"

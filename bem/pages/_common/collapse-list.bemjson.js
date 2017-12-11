@@ -1,9 +1,9 @@
 module.exports = [
-    {content: [
+    {block: 'accordion', content: [
         {block: 'link-collapse', content: [
-            {block: 'a', mix: {block: 'collapsed'}, attrs: {'data-toggle': 'collapse', href: '#ID_1'}, content: {block: 'span', content: 'Сроки изготовления, доставка, оплата'}}
+            {block: 'a', attrs: {'data-toggle': 'collapse', href: '#ID_1'}, content: {block: 'span', content: 'Сроки изготовления, доставка, оплата'}}
         ]},
-        {mix: {block: 'collapse'}, attrs: {"ID": "ID_1"}, content: [
+        {mix: [{block: 'collapse'}, {block: 'in'}], attrs: {"ID": "ID_1"}, content: [
             {block: 'img', src: 'http://placehold.it/400x250', mods: { lazyload: true, responsive: true}, mix: [{block: 'pull-right'}], attrs: {width: 'auto'}},
             {block: 'p', content: 'Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. При изготовлении полгирафии мы используем цифровую печать, шелкографию, тиснение. Специалисты нашей типографии всегда готовы оперативно выполнить Ваш заказ от допечатной подготовки до выпуска готовой продукции. '},
             {block: 'p', content: 'Мы всегда рады новым клиентам и надеемся на сотрудничество! '},

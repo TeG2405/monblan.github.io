@@ -1,7 +1,7 @@
 module.exports = {
     block: 'page',
-    title: 'Издать книгу',
-    id: 'PUBLISH',
+    title: 'Печать визиток',
+    id: 'CARD',
     styles: [{elem: 'css', url: '../_merged/_merged.css'}],
     scripts: [
         {elem: 'js', url: '../_merged/_merged.async.js', async: true},
@@ -16,7 +16,7 @@ module.exports = {
                     {block: 'a', content: 'Главная'},
                     {block: 'span', content: 'Статьи'}
                 ]},
-                {block: 'h', size: '1', mix: {block: 'mtn'}, content: 'Статьи'},
+                {block: 'h', size: '1', mix: {block: 'mtn'}, content: 'Печать каталогов (журналов)'},
                 {block: 'jump', content: [
                     {elem: 'inner', content: [
                         {mix: [{block: 'pull-right'}, {block: 'jump', elem: 'tile'}], content: [
@@ -35,39 +35,36 @@ module.exports = {
                         ]}
                     ]}
                 ]},
-                {block: 'h', size: '2', content: 'Варианты издания книг'},
-                require('../_common/tile-list.bemjson.js'),
-                {block: 'h', size: '2', content: 'Сколько стоит издать книгу'},
-                {block: 'controls-box', mix: {block: 'row'}, content: [
-                    {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 8, lg: 9}}, content: [
-                        {block: 'p', content: 'Издание книг зависит от многих вводных. С ценами на отдельные этапы Вы можете ознакомиться по ссылкам на схеме выше. Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. '},
-                        {block: 'p', content: [
-                            {block: 'b', content: 'Также Вы можете воспользоваться калькулятором для детального расчета  или услугами нашего менеджера '}
-                        ]}
-                    ]},
-                    {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 4, lg: 3}}, content: [
-                        {block: 'btn', mods: {color: 'primary', size: 'lg', block: true}, content: [
-                            {block: 'icomoon', icon: 'calculator'},
-                            {block: 'span', content: 'Расчитать тираж'}
-                        ]},
-                        {block: 'btn', mods: {color: 'red', size: 'lg', block: true}, attrs: {'data-toggle': 'modal', 'data-target': '#MODAL_CALLBACK'}, content: [
-                            {block: 'span', content: 'Связь с менеджером'}
-                        ]}
-                    ]}
-                ]},
-                {block: 'h', mix: {block: 'text-center'}, size: '2', content: 'Этапы издания книг'},
-                require('../_common/tile-counter.bemjson.js'),
-                {block: 'h', size: '2', content: 'Издание книг малым тиражом'},
-                {block: 'p', content: 'Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. При изготовлении полгирафии мы используем цифровую печать, шелкографию, тиснение. Специалисты нашей типографии всегда готовы оперативно выполнить Ваш заказ от допечатной подготовки до выпуска готовой продукции. '},
-                {block: 'p', content: 'Мы всегда рады новым клиентам и надеемся на сотрудничество! '},
-                {block: 'p', content: 'Уже более семи лет мы производим для наших клиентов самую различную печатную продукцию: от визиток и листовок до сложных многостраничных изделий — каталогов, брошюр и календарей. При изготовлении полгирафии мы используем цифровую печать, шелкографию, тиснение. Специалисты нашей типографии всегда готовы оперативно выполнить Ваш заказ от допечатной подготовки до выпуска готовой продукции. '},
+                {block: 'h', size: '2', content: 'Цены на печать каталогов (журналов)'},
+                {block: 'p', content: 'Таблица'},
+
+                {block: 'h', size: '2', content: 'Визитки, которые мы делаем'},
+                require('../_common/carousel-works.bemjson.js'),
+                {block: 'h', size: '2', content: 'Популярные варианты печати и Применяемые материалы'},
+                require('../_common/catalog-section-card.bemjson.js'),
+                {block: 'h', size: '2', content: 'Как мы печатаем визитки/наклейки/пакеты'},
+                require('../_common/tile-list-2.bemjson.js'),
                 {block: 'h', size: '2', content: 'Наиболее частые вопросы'},
                 require('../_common/collapse-list.bemjson.js'),
                 {block: 'text-center', mix: [{block: 'mbl'}, {block: 'pbl'}], content: [
-                    {mix: [{block: 'text-primary'}, {block: 'h2'}], content: 'Уже готовы сделать заказ?'},
-                    {block: 'btn', mods: {color: 'primary', size: 'lg'}, content: 'Оставте телефон и мы, Вам перезвоним'}
-                ]}
+                    {mix: [{block: 'text-primary'}, {block: 'h2'}], content: 'Хотите заказать полный цикл изготовления?'},
+                    {block: 'btn', mods: {color: 'primary', size: 'lg'}, content: 'Расчитать тираж'}
+                ]},
+                {block: 'hr'},
+                {block: 'quote', content: [
+                    {elem: 'header', content: [
+                        {block: 'h', size: 2, mix: {block: 'mtn'}, content: 'Дизайн каталога'},
+                        {block: 'btn', mods: {color: 'red'}, content: 'Заказть дизайн'}
+                    ]},
+                    {elem: 'inner', content: [
+                        {block: 'p', content: 'Наше издательство предлагает Вам полный спектр услуг по корректорским и редакторским работам, вер  стке, дизайну обложки и блока, сканированию и ретушированию фотографий, набору текстов с рукописей, печати и присвоению международного номера ISBN.'},
+                        {block: 'p', content: 'Мы рады предложить Вам изготовление книг.'},
+                        {block: 'p', content: 'Для придания Вашей книге статуса «издания» мы предлагаем Вам услугу «Издательский пакет». Она включает присвоение УДК, ББК, авторского знака и ISBN – международного серийного номера книги.'},
+                    ]}
+                ]},
+                {block: 'mvl'}
             ]},
+            require('../_common/feature.bemjson.js'),
             require('../_common/portfolio-2.bemjson.js'),
             {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
                 {mix: {block: 'row'}, content: [

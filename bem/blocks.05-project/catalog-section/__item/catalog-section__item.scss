@@ -2,5 +2,9 @@
   padding-bottom: $grid-gutter-width/2;
   &:nth-child(2n-1){
     background-color: lighten($gray-base, 95%);
+    &:first-child:last-child{
+      background-color: transparent;
+      padding-bottom: 0;
+    }
   }
 }

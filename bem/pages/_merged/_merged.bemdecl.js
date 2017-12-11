@@ -1313,12 +1313,55 @@ exports.blocks = [
         ]
     },
     {
-        "name": "jump",
-        "elems": [
+        "name": "carousel"
+    },
+    {
+        "name": "carousel",
+        "mods": [
             {
-                "name": "image"
+                "name": "view",
+                "vals": [
+                    {
+                        "name": "works"
+                    }
+                ]
             }
         ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "carousel",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "list-square"
     },
     {
         "name": "catalog-section"
@@ -1330,23 +1373,6 @@ exports.blocks = [
                 "name": "item"
             }
         ]
-    },
-    {
-        "name": "ptl"
-    },
-    {
-        "name": "catalog-section",
-        "elems": [
-            {
-                "name": "header"
-            }
-        ]
-    },
-    {
-        "name": "mvl"
-    },
-    {
-        "name": "phl"
     },
     {
         "name": "row",
@@ -1428,6 +1454,338 @@ exports.blocks = [
         ]
     },
     {
+        "name": "tile-list"
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "tile-list",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "accordion"
+    },
+    {
+        "name": "link-collapse"
+    },
+    {
+        "name": "in"
+    },
+    {
+        "name": "collapsed"
+    },
+    {
+        "name": "text-center"
+    },
+    {
+        "name": "pbl"
+    },
+    {
+        "name": "text-primary"
+    },
+    {
+        "name": "h2"
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "size",
+                "vals": [
+                    {
+                        "name": "lg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "hr"
+    },
+    {
+        "name": "quote"
+    },
+    {
+        "name": "quote",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "color",
+                "vals": [
+                    {
+                        "name": "red"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "quote",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "mvl"
+    },
+    {
+        "name": "feature"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md-offset",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "feature",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "mtl"
+    },
+    {
+        "name": "portfolio"
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "inner"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "col"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "caption"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "description"
+            }
+        ]
+    },
+    {
+        "name": "portfolio",
+        "elems": [
+            {
+                "name": "more"
+            }
+        ]
+    },
+    {
+        "name": "reviews"
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "item"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "img",
+        "mods": [
+            {
+                "name": "shape",
+                "vals": [
+                    {
+                        "name": "circle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "body"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "name"
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "name",
+                "mods": [
+                    {
+                        "name": "size",
+                        "vals": [
+                            {
+                                "name": "lg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "text"
+            }
+        ]
+    },
+    {
+        "name": "text-right"
+    },
+    {
+        "name": "visible-xs"
+    },
+    {
+        "name": "reviews",
+        "elems": [
+            {
+                "name": "date"
+            }
+        ]
+    },
+    {
+        "name": "ul"
+    },
+    {
+        "name": "jump",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "ptl"
+    },
+    {
+        "name": "catalog-section",
+        "elems": [
+            {
+                "name": "header"
+            }
+        ]
+    },
+    {
+        "name": "phl"
+    },
+    {
         "name": "table"
     },
     {
@@ -1474,19 +1832,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "color",
-                "vals": [
-                    {
-                        "name": "red"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "articles",
         "elems": [
             {
@@ -1529,9 +1874,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "carousel"
-    },
-    {
         "name": "carousel",
         "mods": [
             {
@@ -1545,47 +1887,10 @@ exports.blocks = [
         ]
     },
     {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "caption"
-            }
-        ]
-    },
-    {
         "name": "h1"
     },
     {
         "name": "dot"
-    },
-    {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "size",
-                "vals": [
-                    {
-                        "name": "lg"
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "row",
@@ -1730,9 +2035,6 @@ exports.blocks = [
         "name": "about"
     },
     {
-        "name": "collapsed"
-    },
-    {
         "name": "form-calc"
     },
     {
@@ -1763,9 +2065,6 @@ exports.blocks = [
                 ]
             }
         ]
-    },
-    {
-        "name": "text-center"
     },
     {
         "name": "row",
@@ -1880,109 +2179,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "portfolio"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "col"
-            }
-        ]
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "caption"
-            }
-        ]
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "title"
-            }
-        ]
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "description"
-            }
-        ]
-    },
-    {
-        "name": "text-primary"
-    },
-    {
-        "name": "h2"
-    },
-    {
-        "name": "carousel",
-        "mods": [
-            {
-                "name": "view",
-                "vals": [
-                    {
-                        "name": "works"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "carousel",
-        "elems": [
-            {
-                "name": "title"
-            }
-        ]
-    },
-    {
-        "name": "list-square"
-    },
-    {
-        "name": "hr"
-    },
-    {
-        "name": "quote"
-    },
-    {
-        "name": "quote",
-        "elems": [
-            {
-                "name": "header"
-            }
-        ]
-    },
-    {
-        "name": "quote",
-        "elems": [
-            {
-                "name": "inner"
-            }
-        ]
-    },
-    {
         "name": "row",
         "elems": [
             {
@@ -2019,61 +2215,7 @@ exports.blocks = [
         ]
     },
     {
-        "name": "img",
-        "mods": [
-            {
-                "name": "shape",
-                "vals": [
-                    {
-                        "name": "circle"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "pbl"
-    },
-    {
         "name": "portfolio-section"
-    },
-    {
-        "name": "mtl"
-    },
-    {
-        "name": "tile-list"
-    },
-    {
-        "name": "tile-list",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "tile-list",
-        "elems": [
-            {
-                "name": "caption"
-            }
-        ]
-    },
-    {
-        "name": "tile-list",
-        "elems": [
-            {
-                "name": "title"
-            }
-        ]
-    },
-    {
-        "name": "tile-list",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
     },
     {
         "name": "controls-box"
@@ -2133,107 +2275,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "link-collapse"
-    },
-    {
-        "name": "portfolio",
-        "elems": [
-            {
-                "name": "more"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "reviews"
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "body"
-            }
-        ]
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "name"
-            }
-        ]
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "name",
-                "mods": [
-                    {
-                        "name": "size",
-                        "vals": [
-                            {
-                                "name": "lg"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "text"
-            }
-        ]
-    },
-    {
-        "name": "text-right"
-    },
-    {
-        "name": "reviews",
-        "elems": [
-            {
-                "name": "date"
-            }
-        ]
-    },
-    {
         "name": "reviews-slider"
     },
     {
@@ -2254,9 +2295,6 @@ exports.blocks = [
     },
     {
         "name": "well"
-    },
-    {
-        "name": "ul"
     },
     {
         "name": "ol"
