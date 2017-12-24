@@ -2,7 +2,7 @@ table {
 
   // БЕМ Запрещает использование элементов без класса: не делайте так в своем проекте))
 
-  &:not(class){
+  &:not([class]){
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;

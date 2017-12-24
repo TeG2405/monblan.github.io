@@ -36,7 +36,7 @@ module.exports = {
                     ]}
                 ]},
                 {block: 'h', size: '2', content: 'Цены на печать каталогов (журналов)'},
-                {block: 'p', content: 'Таблица'},
+                require('../_common/total.bemjson.js'),
                 {block: 'ul', content: [
                     'цены указаны справочно и будут уточнены после формирования заказа <span style="color:red;">*</span>',
                     'срок изготовление 3-7 дней',

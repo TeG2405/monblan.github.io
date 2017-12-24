@@ -1,0 +1,15 @@
+textarea.form-control{
+  resize: vertical;
+}
+select.form-control{
+  appearance: none;
+  background-color: transparent;
+  border-color: #ddd;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAHCAYAAAAMPr0FAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAABZSURBVHjapNHBDcAgDEPRzwis0BVYgZ2ybVdgBHMCCdqCGiz5+qTEAbiAyHsKcEvCE22aJPG3AHmBGoAX/sKtn3QAz7gNvzqEG26PERxw8C6+SwUAAP//AwCQOeFF8dmjzAAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding-right: 30px;
+  &::-ms-expand {
+    display: none;
+  }
+}

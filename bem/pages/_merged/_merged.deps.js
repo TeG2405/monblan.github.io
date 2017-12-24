@@ -497,6 +497,138 @@ exports.deps = [
         "elem": "description"
     },
     {
+        "block": "total"
+    },
+    {
+        "block": "total",
+        "elem": "line"
+    },
+    {
+        "block": "form-inline"
+    },
+    {
+        "block": "radio",
+        "elem": "control"
+    },
+    {
+        "block": "radio",
+        "elem": "control",
+        "mod": "styled"
+    },
+    {
+        "block": "radio",
+        "elem": "icon"
+    },
+    {
+        "block": "radio",
+        "elem": "icon",
+        "mod": "styled"
+    },
+    {
+        "block": "mvl"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md",
+        "val": 3
+    },
+    {
+        "block": "checkbox",
+        "elem": "control"
+    },
+    {
+        "block": "checkbox",
+        "elem": "control",
+        "mod": "styled"
+    },
+    {
+        "block": "checkbox",
+        "elem": "icon"
+    },
+    {
+        "block": "checkbox",
+        "elem": "icon",
+        "mod": "styled"
+    },
+    {
+        "block": "mvs"
+    },
+    {
+        "block": "total",
+        "elem": "muted"
+    },
+    {
+        "block": "total",
+        "elem": "table"
+    },
+    {
+        "block": "total",
+        "elem": "thead"
+    },
+    {
+        "block": "total",
+        "elem": "tr"
+    },
+    {
+        "block": "total",
+        "elem": "th"
+    },
+    {
+        "block": "pan"
+    },
+    {
+        "block": "total",
+        "elem": "split"
+    },
+    {
+        "block": "total",
+        "elem": "split-right"
+    },
+    {
+        "block": "total",
+        "elem": "split-left"
+    },
+    {
+        "block": "hidden-sm"
+    },
+    {
+        "block": "total",
+        "elem": "tbody"
+    },
+    {
+        "block": "total",
+        "elem": "td"
+    },
+    {
+        "block": "total",
+        "elem": "label"
+    },
+    {
+        "block": "total",
+        "elem": "input"
+    },
+    {
+        "block": "total",
+        "elem": "price"
+    },
+    {
+        "block": "total",
+        "elem": "price-title"
+    },
+    {
+        "block": "total",
+        "elem": "price-number"
+    },
+    {
+        "block": "total",
+        "elem": "price-total"
+    },
+    {
+        "block": "total",
+        "elem": "price-btn"
+    },
+    {
         "block": "carousel"
     },
     {
@@ -545,12 +677,6 @@ exports.deps = [
         "elem": "col",
         "mod": "xs",
         "val": 6
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "md",
-        "val": 3
     },
     {
         "block": "tile"
@@ -619,9 +745,6 @@ exports.deps = [
     {
         "block": "quote",
         "elem": "inner"
-    },
-    {
-        "block": "mvl"
     },
     {
         "block": "feature"
@@ -945,42 +1068,6 @@ exports.deps = [
         "elem": "li"
     },
     {
-        "block": "checkbox",
-        "elem": "control"
-    },
-    {
-        "block": "checkbox",
-        "elem": "control",
-        "mod": "styled"
-    },
-    {
-        "block": "checkbox",
-        "elem": "icon"
-    },
-    {
-        "block": "checkbox",
-        "elem": "icon",
-        "mod": "styled"
-    },
-    {
-        "block": "radio",
-        "elem": "control"
-    },
-    {
-        "block": "radio",
-        "elem": "control",
-        "mod": "styled"
-    },
-    {
-        "block": "radio",
-        "elem": "icon"
-    },
-    {
-        "block": "radio",
-        "elem": "icon",
-        "mod": "styled"
-    },
-    {
         "block": "list-unstyled",
         "elem": "li"
     },
@@ -1122,6 +1209,54 @@ exports.deps = [
         "val": true
     },
     {
+        "block": "radio"
+    },
+    {
+        "block": "radio",
+        "elem": "control",
+        "mod": "styled",
+        "val": true
+    },
+    {
+        "block": "radio",
+        "elem": "icon",
+        "mod": "styled",
+        "val": true
+    },
+    {
+        "block": "checkbox"
+    },
+    {
+        "block": "checkbox",
+        "elem": "control",
+        "mod": "styled",
+        "val": true
+    },
+    {
+        "block": "checkbox",
+        "elem": "icon",
+        "mod": "styled",
+        "val": true
+    },
+    {
+        "block": "checkbox",
+        "mod": "styled"
+    },
+    {
+        "block": "checkbox",
+        "mod": "styled",
+        "val": true
+    },
+    {
+        "block": "btn",
+        "mod": "size"
+    },
+    {
+        "block": "btn",
+        "mod": "size",
+        "val": "lg"
+    },
+    {
         "block": "list-square"
     },
     {
@@ -1132,15 +1267,6 @@ exports.deps = [
     },
     {
         "block": "accordion"
-    },
-    {
-        "block": "btn",
-        "mod": "size"
-    },
-    {
-        "block": "btn",
-        "mod": "size",
-        "val": "lg"
     },
     {
         "block": "hr"
@@ -1237,36 +1363,6 @@ exports.deps = [
     },
     {
         "block": "small"
-    },
-    {
-        "block": "checkbox"
-    },
-    {
-        "block": "checkbox",
-        "elem": "control",
-        "mod": "styled",
-        "val": true
-    },
-    {
-        "block": "checkbox",
-        "elem": "icon",
-        "mod": "styled",
-        "val": true
-    },
-    {
-        "block": "radio"
-    },
-    {
-        "block": "radio",
-        "elem": "control",
-        "mod": "styled",
-        "val": true
-    },
-    {
-        "block": "radio",
-        "elem": "icon",
-        "mod": "styled",
-        "val": true
     },
     {
         "block": "list-unstyled"

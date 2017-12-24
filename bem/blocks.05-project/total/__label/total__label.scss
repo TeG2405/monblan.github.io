@@ -1,0 +1,9 @@
+.total__label {
+  cursor: pointer;
+  margin: 0;
+  display: block;
+  span{
+    display: block;
+    padding: $l $grid-gutter-width/2;
+  }
+}

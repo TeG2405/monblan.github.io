@@ -1,0 +1,20 @@
+.total__input {
+  $padding-base-vertical: 2px;
+  display: block;
+  width: 100%;
+  height: $font-size-h5 * $line-height-base + $padding-base-vertical * 2; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+  padding: $padding-base-vertical $padding-base-horizontal;
+  font-size: $font-size-h5;
+  line-height: $line-height-base;
+  color: $headings-color;
+  background-color: $input-bg;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: none;
+  text-align: center;
+  @include placeholder;
+  outline: none !important;
+  &::-ms-expand {
+    border: 0;
+    background-color: transparent;
+  }
+}

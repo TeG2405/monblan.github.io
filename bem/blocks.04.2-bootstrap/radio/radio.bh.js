@@ -8,6 +8,7 @@ module.exports = function (bh) {
                     disabled: json.disabled,
                     mods: ctx.mods()
                 },
+                {elem: 'icon'},
                 ctx.content()
             ]}
         ], true);

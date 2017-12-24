@@ -1313,6 +1313,218 @@ exports.blocks = [
         ]
     },
     {
+        "name": "total"
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "line"
+            }
+        ]
+    },
+    {
+        "name": "form-inline"
+    },
+    {
+        "name": "radio"
+    },
+    {
+        "name": "mvl"
+    },
+    {
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "md",
+                        "vals": [
+                            {
+                                "name": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "checkbox"
+    },
+    {
+        "name": "checkbox",
+        "mods": [
+            {
+                "name": "styled",
+                "vals": [
+                    {
+                        "name": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "mvs"
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "muted"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "table"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "thead"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "tr"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "th"
+            }
+        ]
+    },
+    {
+        "name": "pan"
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "split"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "split-right"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "split-left"
+            }
+        ]
+    },
+    {
+        "name": "hidden-sm"
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "tbody"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "td"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "label"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "input"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "price"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "price-title"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "price-number"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "price-total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "price-btn"
+            }
+        ]
+    },
+    {
+        "name": "btn",
+        "mods": [
+            {
+                "name": "size",
+                "vals": [
+                    {
+                        "name": "lg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "carousel"
     },
     {
@@ -1411,24 +1623,6 @@ exports.blocks = [
         ]
     },
     {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "md",
-                        "vals": [
-                            {
-                                "name": 3
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "tile"
     },
     {
@@ -1513,19 +1707,6 @@ exports.blocks = [
         "name": "h2"
     },
     {
-        "name": "btn",
-        "mods": [
-            {
-                "name": "size",
-                "vals": [
-                    {
-                        "name": "lg"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "hr"
     },
     {
@@ -1559,9 +1740,6 @@ exports.blocks = [
                 "name": "inner"
             }
         ]
-    },
-    {
-        "name": "mvl"
     },
     {
         "name": "feature"
@@ -2320,12 +2498,6 @@ exports.blocks = [
     },
     {
         "name": "small"
-    },
-    {
-        "name": "checkbox"
-    },
-    {
-        "name": "radio"
     },
     {
         "name": "list-unstyled"

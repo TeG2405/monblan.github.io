@@ -36,7 +36,7 @@ module.exports = {
                     ]}
                 ]},
                 {block: 'h', size: '2', content: 'Цены на печать каталогов (журналов)'},
-                {block: 'p', content: 'Таблица'},
+                require('../_common/total.bemjson.js'),
 
                 {block: 'h', size: '2', content: 'Визитки, которые мы делаем'},
                 require('../_common/carousel-works.bemjson.js'),
