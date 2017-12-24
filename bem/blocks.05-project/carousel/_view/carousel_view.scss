@@ -73,14 +73,15 @@
   }
   .carousel__caption{
     max-width: 495px;
-    margin-left: $g*2;
-    margin-right: $g*2;
+
+    width: 70%;
     .dot{
       font-size: 3em;
       margin-left: -$g;
       @media (max-width: $screen-xs-max) {
         font-size: 1.6em;
         line-height: 1.2;
+        max-width: 80%;
       }
     }
   }

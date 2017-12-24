@@ -2607,8 +2607,7 @@
 
 .carousel_view_main .carousel__caption {
   max-width: 495px;
-  margin-left: 60px;
-  margin-right: 60px;
+  width: 70%;
 }
 
 .carousel_view_main .carousel__caption .dot {
@@ -2620,6 +2619,7 @@
   .carousel_view_main .carousel__caption .dot {
     font-size: 1.6em;
     line-height: 1.2;
+    max-width: 80%;
   }
 }
 
@@ -3122,9 +3122,17 @@ a.tile:hover .img {
 /* end: ../../blocks.05-project/portfolio/__caption/portfolio__caption.scss */
 
 
+/* begin: ../../blocks.05-project/portfolio/__title/portfolio__title.scss */
+.portfolio__title {
+  width: 100%;
+}
+/* end: ../../blocks.05-project/portfolio/__title/portfolio__title.scss */
+
+
 /* begin: ../../blocks.05-project/portfolio/__description/portfolio__description.scss */
 .portfolio__description {
   font-size: 14px;
+  width: 100%;
 }
 /* end: ../../blocks.05-project/portfolio/__description/portfolio__description.scss */
 
@@ -3820,6 +3828,7 @@ a.tile:hover .img {
 .accent__description {
   margin-left: 190px;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 @media (max-width: 1199px) {
