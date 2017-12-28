@@ -35,13 +35,14 @@ module.exports = {
                         ]}
                     ]}
                 ]},
-                {block: 'h', size: '2', content: 'Цены на печать каталогов (журналов)'},
-                require('../_common/total.bemjson.js'),
-
-                {block: 'h', size: '2', content: 'Визитки, которые мы делаем'},
-                require('../_common/carousel-works.bemjson.js'),
                 {block: 'h', size: '2', content: 'Популярные варианты печати и Применяемые материалы'},
                 require('../_common/catalog-section-card.bemjson.js'),
+                {block: 'h', size: '2', content: 'Цены на печать каталогов (журналов)'},
+                require('../_common/total.bemjson.js'),
+                {block: 'mvl', mix: {block: 'pvx'}},
+                {block: 'h', size: '2', content: 'Визитки, которые мы делаем'},
+                require('../_common/carousel-works.bemjson.js'),
+                {block: 'mvl', mix: {block: 'pvx'}},
                 {block: 'h', size: '2', content: 'Как мы печатаем визитки/наклейки/пакеты'},
                 require('../_common/tile-list-2.bemjson.js'),
                 {block: 'h', size: '2', content: 'Наиболее частые вопросы'},

@@ -497,6 +497,47 @@ exports.deps = [
         "elem": "description"
     },
     {
+        "block": "catalog-section"
+    },
+    {
+        "block": "catalog-section",
+        "elem": "item"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "ex"
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "xs",
+        "val": 6
+    },
+    {
+        "block": "row",
+        "elem": "col",
+        "mod": "md",
+        "val": 3
+    },
+    {
+        "block": "tile"
+    },
+    {
+        "block": "pbs"
+    },
+    {
+        "block": "tile",
+        "elem": "image"
+    },
+    {
+        "block": "mbs"
+    },
+    {
+        "block": "tile",
+        "elem": "title"
+    },
+    {
         "block": "total"
     },
     {
@@ -526,12 +567,6 @@ exports.deps = [
     },
     {
         "block": "mvl"
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "md",
-        "val": 3
     },
     {
         "block": "checkbox",
@@ -629,6 +664,9 @@ exports.deps = [
         "elem": "price-btn"
     },
     {
+        "block": "pvx"
+    },
+    {
         "block": "carousel"
     },
     {
@@ -659,41 +697,6 @@ exports.deps = [
     {
         "block": "list-square",
         "elem": "li"
-    },
-    {
-        "block": "catalog-section"
-    },
-    {
-        "block": "catalog-section",
-        "elem": "item"
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "ex"
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "xs",
-        "val": 6
-    },
-    {
-        "block": "tile"
-    },
-    {
-        "block": "pbs"
-    },
-    {
-        "block": "tile",
-        "elem": "image"
-    },
-    {
-        "block": "mbs"
-    },
-    {
-        "block": "tile",
-        "elem": "title"
     },
     {
         "block": "tile-list"
@@ -835,6 +838,12 @@ exports.deps = [
     {
         "block": "ul",
         "elem": "li"
+    },
+    {
+        "block": "ul-required"
+    },
+    {
+        "block": "visible-sm"
     },
     {
         "block": "jump",
@@ -1209,6 +1218,12 @@ exports.deps = [
         "val": true
     },
     {
+        "block": "row",
+        "elem": "col",
+        "mod": "ex",
+        "val": 12
+    },
+    {
         "block": "radio"
     },
     {
@@ -1258,12 +1273,6 @@ exports.deps = [
     },
     {
         "block": "list-square"
-    },
-    {
-        "block": "row",
-        "elem": "col",
-        "mod": "ex",
-        "val": 12
     },
     {
         "block": "accordion"

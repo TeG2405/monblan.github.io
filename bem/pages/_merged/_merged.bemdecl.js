@@ -1313,24 +1313,51 @@ exports.blocks = [
         ]
     },
     {
-        "name": "total"
+        "name": "catalog-section"
     },
     {
-        "name": "total",
+        "name": "catalog-section",
         "elems": [
             {
-                "name": "line"
+                "name": "item"
             }
         ]
     },
     {
-        "name": "form-inline"
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "ex",
+                        "vals": [
+                            {
+                                "name": 12
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
-        "name": "radio"
-    },
-    {
-        "name": "mvl"
+        "name": "row",
+        "elems": [
+            {
+                "name": "col",
+                "mods": [
+                    {
+                        "name": "xs",
+                        "vals": [
+                            {
+                                "name": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "row",
@@ -1349,6 +1376,51 @@ exports.blocks = [
                 ]
             }
         ]
+    },
+    {
+        "name": "tile"
+    },
+    {
+        "name": "pbs"
+    },
+    {
+        "name": "tile",
+        "elems": [
+            {
+                "name": "image"
+            }
+        ]
+    },
+    {
+        "name": "mbs"
+    },
+    {
+        "name": "tile",
+        "elems": [
+            {
+                "name": "title"
+            }
+        ]
+    },
+    {
+        "name": "total"
+    },
+    {
+        "name": "total",
+        "elems": [
+            {
+                "name": "line"
+            }
+        ]
+    },
+    {
+        "name": "form-inline"
+    },
+    {
+        "name": "radio"
+    },
+    {
+        "name": "mvl"
     },
     {
         "name": "checkbox"
@@ -1525,6 +1597,9 @@ exports.blocks = [
         ]
     },
     {
+        "name": "pvx"
+    },
+    {
         "name": "carousel"
     },
     {
@@ -1574,78 +1649,6 @@ exports.blocks = [
     },
     {
         "name": "list-square"
-    },
-    {
-        "name": "catalog-section"
-    },
-    {
-        "name": "catalog-section",
-        "elems": [
-            {
-                "name": "item"
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "ex",
-                        "vals": [
-                            {
-                                "name": 12
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "row",
-        "elems": [
-            {
-                "name": "col",
-                "mods": [
-                    {
-                        "name": "xs",
-                        "vals": [
-                            {
-                                "name": 6
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "tile"
-    },
-    {
-        "name": "pbs"
-    },
-    {
-        "name": "tile",
-        "elems": [
-            {
-                "name": "image"
-            }
-        ]
-    },
-    {
-        "name": "mbs"
-    },
-    {
-        "name": "tile",
-        "elems": [
-            {
-                "name": "title"
-            }
-        ]
     },
     {
         "name": "tile-list"
@@ -1940,6 +1943,12 @@ exports.blocks = [
     },
     {
         "name": "ul"
+    },
+    {
+        "name": "ul-required"
+    },
+    {
+        "name": "visible-sm"
     },
     {
         "name": "jump",

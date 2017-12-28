@@ -23,7 +23,10 @@ module.exports = {
             {mix: {block: 'container', mods: {fluid: 'false'}}, content: [
                 {block: 'text-center', mix: [{block: 'mbl'}, {block: 'pbl'}], content: [
                     {mix: [{block: 'text-primary'}, {block: 'h2'}], content: 'не нашли что искали?'},
-                    {block: 'btn', mods: {color: 'primary', size: 'lg'}, content: 'Оставте телефон и мы, Вам перезвоним'}
+                    {block: 'btn', mods: {color: 'primary', size: 'lg'}, content: [
+                        {tag: 'span', mix: {block: 'visible-xs'}, content: 'Заказать обратный звонок'},
+                        {tag: 'span', mix: {block: 'hidden-xs'}, content: 'Оставте телефон и мы, Вам перезвоним'}
+                    ]}
                 ]},
                 {block: 'mvl', content: [
                     {block: 'img', src: '../../../upload/img-content.jpg', mods: {lazyload: true, responsive: true}}

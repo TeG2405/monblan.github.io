@@ -37,14 +37,15 @@ module.exports = {
                 ]},
                 {block: 'h', size: '2', content: 'Цены на печать каталогов (журналов)'},
                 require('../_common/total.bemjson.js'),
-                {block: 'ul', content: [
-                    'цены указаны справочно и будут уточнены после формирования заказа <span style="color:red;">*</span>',
+                {block: 'ul', mix: {block: 'ul-required'}, content: [
+                    'цены указаны справочно и будут уточнены после формирования заказа',
                     'срок изготовление 3-7 дней',
                     'стоимость разработки дизайна =1000 р',
                     'к форме заявки вы можете прикрепить готовый макет'
                 ]},
                 {block: 'h', size: '2', content: 'Каталоги, которые мы делаем'},
                 require('../_common/carousel-works.bemjson.js'),
+                {block: 'mvl', mix: {block: 'pvx'}},
                 {block: 'h', size: '2', content: 'Технология изготовления каталогов'},
                 require('../_common/tile-list-2.bemjson.js'),
                 {block: 'h', size: '2', content: 'Наиболее частые вопросы'},
@@ -74,26 +75,26 @@ module.exports = {
                     {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 6}}, content: [
                         {block: 'h', size: '2', content: 'Отзывы клиентов'},
                         require('../_common/reviews-light.bemjson.js'),
-                        {block: 'text-right', mix: {block: 'visible-xs'}, content: [
+                        {block: 'text-right', mix: [{block: 'visible-xs'}, {block: 'visible-sm'}], content: [
                             {block: 'btn', mods: {color: 'red'}, content: 'Другие отзывы'}
                         ]}
                     ]},
                     {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 6}}, content: [
                         {block: 'h', size: '2', content: 'Статьи'},
                         require('../_common/articles-list-light.bemjson.js'),
-                        {block: 'text-right', mix: {block: 'visible-xs'}, content: [
+                        {block: 'text-right', mix: [{block: 'visible-xs'}, {block: 'visible-sm'}], content: [
                             {block: 'btn', mods: {color: 'red'}, content: 'Другие статьи'}
                         ]}
                     ]}
                 ]},
                 {mix: {block: 'row'}, content: [
                     {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 6}}, content: [
-                        {block: 'text-right', mix: {block: 'hidden-xs'}, content: [
+                        {block: 'text-right', mix: [{block: 'hidden-xs'}, {block: 'hidden-sm'}], content: [
                             {block: 'btn', mods: {color: 'red'}, content: 'Другие отзывы'}
                         ]}
                     ]},
                     {mix: {block: 'row', elem: 'col', mods: {xs: 12, md: 6}}, content: [
-                        {block: 'text-right', mix: {block: 'hidden-xs'}, content: [
+                        {block: 'text-right', mix: [{block: 'hidden-xs'}, {block: 'hidden-sm'}], content: [
                             {block: 'btn', mods: {color: 'red'}, content: 'Другие статьи'}
                         ]}
                     ]}

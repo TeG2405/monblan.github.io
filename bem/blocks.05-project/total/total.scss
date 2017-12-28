@@ -27,7 +27,7 @@
   }
   &__line{
     border-top: 1px solid #ddd;
-    padding: $grid-gutter-width/2;
+    padding: 22px $grid-gutter-width/2;
     &:first-child{
       border-top: none;
     }
@@ -43,7 +43,7 @@
     &-left{
       text-align: left;
       @media (max-width: $screen-xs-max) {
-        font-size: $font-size-h5;
+        font-size: $font-size-h6;
         text-align: center;
       }
     }
@@ -66,7 +66,7 @@
   }
   &__table{
     font-family: $headings-font-family;
-    font-size: $font-size-h5;
+    font-size: $font-size-h6;
     width: 100%;
   }
   &__tr{
@@ -159,7 +159,7 @@
 
   .radio {
     font-family: $headings-font-family;
-    font-size: $font-size-h5;
+    font-size: $font-size-h6;
     line-height: 1;
     label{
       display: flex;

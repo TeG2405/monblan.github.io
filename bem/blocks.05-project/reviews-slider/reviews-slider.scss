@@ -10,14 +10,14 @@
       width: 25%;
     }
     .a{
-      display: flex;
-      flex-flow: column nowrap;
-      align-items: center;
-      justify-content: center;
+      display: block;
       background-color: #dddddd;
       padding: $l;
       position: relative;
       transition: 0.35s ease;
+      .img{
+        margin: 0 auto;
+      }
       &:before{
         opacity: 0;
         font-family: FontAwesome;

@@ -103,7 +103,7 @@
     padding: $grid-gutter-width;
     margin-top: 200px;
     @media (min-width: $screen-sm-min) {
-      width: 50%;
+      width: 40%;
       margin-top: 0;
       padding: $grid-gutter-width $grid-gutter-width *2;
     }
@@ -127,7 +127,7 @@
     @media (min-width: $screen-sm-min) {
       text-align: left !important;
       left: auto !important;
-      width: 50%;
+      width: 40%;
       padding: 0 $grid-gutter-width *2;
     }
     li{
@@ -141,7 +141,7 @@
   .slick-arrow{
      height: 200px;
      &:before{
-       background-color: rgba(0, 0, 0, 0.2);
+       background-color: rgba(0, 0, 0, 0.4);
        text-indent: 0;
        position: absolute;
        top: 50%;
@@ -152,6 +152,7 @@
        text-align: center;
        line-height: 1.4;
        vertical-align: middle;
+       color: #fff;
      }
      @media (min-width: $screen-sm-min) {
        height: auto;

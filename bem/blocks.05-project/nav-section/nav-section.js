@@ -7,14 +7,18 @@
     };
     Block.prototype.init = function(element, option){
         this.$block = $(element);
-        this.$li = this.$block.find('.nav-section__li');
-        this.$link = this.$block.find('.nav-section__link');
+        this.$li = this.$block.find('.nav-section__list > .nav-section__li');
+        this.$link = this.$block.find('.nav-section__list > .nav-section__li > .nav-section__link');
         this.$link.on('click', $.proxy(function (e) {
             var $this = $(e.currentTarget);
+            if($this.parent().hasClass('open')) return;
+            else{
+                this.$li.removeClass('open');
+                $this.parent().addClass('open');
+                e.preventDefault();
+            }
             if(!$this.next('.nav-section__dropdown').is(':visible')){
                 this.$li.removeClass('open');
-                $this.closest(this.$li).addClass('open');
-                e.preventDefault();
             }
         }, this));
     };
